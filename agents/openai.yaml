@@ -1,0 +1,4 @@
+interface:
+  display_name: "Better AI Writer"
+  short_description: "Revise English prose with strict style discipline"
+  default_prompt: "Use $better-ai-writer to revise my English draft using only the supplied material."
