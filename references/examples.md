@@ -1,93 +1,200 @@
 # Worked revisions
 
-These examples use invented demonstration materials supplied within each case. They claim nothing about actual people or studies. Quotations in the material are exact fictional source text. Only the output paragraphs demonstrate the strict style; headings and diagnosis belong to this reference document.
+These original teaching examples expose their complete inputs. Each revision uses only the draft's factual content. The notes define the task and provenance; they add no hidden evidence.
 
-## Academic close reading
+They are authored demonstrations, not independent model outputs or user-study results. Protected anchors receive mechanical checks. The editorial checks below require judgment.
 
-Supplied material: a fictional narrator repeats “I remember” three times, then writes “I cannot recall the room.” The user wants an interpretation of the sequence; no broader chapter context was supplied.
+## Browse the examples
 
-Draft: “This is not just a passage about memory, but about identity. Why does this matter? The repetition highlights the profound complexity of selfhood.”
+- [Close reading: make the inference visible](#close-reading)
+- [Research summary: keep the finding within the design](#research)
+- [Professional email: preserve the complete request](#email)
+- [Critical opinion: keep the author's judgment](#position)
+- [Quotation: keep a banned construction inside the source](#quotation)
+- [Narrative: preserve the scene without inventing a lesson](#narrative)
+- [Already clear: make no unnecessary change](#already-clear)
 
-Revision:
+<a id="close-reading"></a>
 
-The narrator repeats “I remember” three times before admitting, “I cannot recall the room.” That admission limits the confidence established by the repeated claim. The sequence supports a reading of memory as uncertain, although the excerpt alone cannot establish what this uncertainty means for the narrator's identity.
+## Close reading: make the inference visible
 
-Diagnosis: the revision anchors its inference in the supplied sequence, removes P01–P05, and states the limit without pretending to know the larger work.
+**Task:** Revise a two-paragraph interpretation for a reader who knows the passage. Preserve the interpretation and its limit.
 
-## Professional email
+**Provenance:** Original teaching example. The fictional passage and page references appear entirely in the draft. No real author or work is implied.
 
-Supplied material: Maya must send a revised budget by Friday at noon so the sender can review it before Monday's meeting. No other commitment exists.
+**Before**
 
-Draft: “In today's fast-paced environment, this is not simply a budget update; it is a vital step toward alignment. Can we make this happen? Your collaboration will pave the way for success.”
+> The narrator's description is not merely a recollection of a room; it is a profound exploration of memory's complexity. She first claims, “I remember the room exactly” (4). Later she writes, “Perhaps the door opened onto the garden” (4). Why is this significant? The movement from “exactly” to “Perhaps” changes the certainty of the description. It is a movement from confidence to hesitation, highlighting the complex nature of remembering.
+>
+> The passage is important because the opening assurance encourages the reader to trust the description, while the later qualification gives the reader a reason to reconsider that trust. This shows that certainty in telling a memory cannot establish the accuracy of the memory. Yet the passage gives no independent account of where the door actually opened. It therefore leaves the description's accuracy unresolved. Ultimately, this uncertainty underscores the complexity of memory.
 
-Revision:
+**After**
 
-Maya, please send the revised budget by noon on Friday so I can review it before Monday's meeting.
+> The narrator qualifies her initial confidence. She first claims, “I remember the room exactly” (4). Later, “Perhaps the door opened onto the garden” (4) makes one detail tentative. The shift from “exactly” to “Perhaps” gives the reader a specific reason to reconsider the opening assurance.
+>
+> The passage offers no independent account of where the door opened. That absence leaves the memory's accuracy unresolved: the narrator's confidence alone cannot establish whether the description matches the room.
 
-Diagnosis: the request retains the owner, deadline, and purpose. It adds no promise or invented context.
+**What changed:** The first paragraph connects a precise word change to the reader's reason for revising trust. The second develops the evidentiary limit instead of repeating that memory is complex. The revision preserves the argument's scope while removing rhetorical staging.
 
-## Research summary
+**Preservation review:**
 
-Supplied material: a pilot enrolled 18 participants; mean completion time changed from 14 minutes to 11 minutes after a redesigned form; no comparison group; no significance test supplied.
+- Both quotations and page references survive exactly.
+- The shift in certainty grounds the reading; no motive or additional scene appears.
+- The final limit concerns independent confirmation, not a new general theory of memory.
 
-Draft: “The groundbreaking redesign proves that simplification transforms efficiency, highlighting its enormous potential.”
+**Rules:** R04, R07, R12, P01, P04, P07, P22.
 
-Revision:
+<a id="research"></a>
 
-In the 18-participant pilot, mean completion time fell from 14 minutes to 11 minutes after the form redesign. Without a comparison group, the pilot cannot establish how much of that change resulted from the redesign.
+## Research summary: keep the finding within the design
 
-Diagnosis: the result survives, causal certainty narrows to the supplied design, and the ending names the actual limitation. No missing statistical test receives an invented result.
+**Task:** Revise the summary without changing the stated result or causal limitation.
 
-## Decision recommendation
+**Provenance:** Original fictional study summary; all data and limitations appear in the draft.
 
-Supplied material: option A costs $400 per month; B costs $650; both meet the supplied capacity requirement; user prioritizes cost. No reliability information.
+**Before**
 
-Revision:
+> It is important to note that the pilot included 18 participants. Mean completion time fell from 14 minutes to 11 minutes after the form redesign, highlighting the potential importance of the change. However, the pilot had no comparison group. The team therefore could not determine how much of the reduction resulted from the redesign. No significance test was reported. These limitations are a reminder that further research is important.
 
-Choose option A under the stated cost priority. It meets the capacity requirement at $400 per month, saving $250 compared with option B. The supplied information does not support a reliability comparison.
+**After**
 
-Diagnosis: an action ending need not postpone a supported decision. The limit prevents an unsupported reliability claim.
+> The pilot included 18 participants. Mean completion time fell from 14 minutes to 11 minutes after the form redesign. With no comparison group, the team could not determine how much of the reduction resulted from the redesign. The report included no significance test.
 
-## Quotation protection
+**What changed:** The numerical result leads directly to the design limitation. The closing sentence retains the missing test; a generic appeal for more research adds nothing.
 
-Supplied fictional source: Vale, page 12, quoted fragment: “Memory is not a record but an argument”. User requests that exact quotation and an interpretation.
+**Preservation review:**
 
-Revision:
+- Sample size and both times survive.
+- Absence of a comparison group and significance test survives.
+- No causal or statistical conclusion has been added.
 
-Vale writes, “Memory is not a record but an argument” (12). The metaphor invites the reader to examine how a recollection supports a position. The sentence alone leaves the criteria for evaluating that position unspecified.
+**Rules:** R03, R12, P05, P07, P20.
 
-Diagnosis: the quotation retains “is” and P01 because R15 protects source wording. The surrounding original prose follows the strict constraints.
+<a id="email"></a>
 
-## Narrative restraint
+## Professional email: preserve the complete request
 
-Supplied material: Leah missed the last bus. She walked home. Her shoes were wet when she arrived. No weather, emotion, or lesson supplied.
+**Task:** Revise the email for a colleague who already knows the meeting.
 
-Revision:
+**Provenance:** Original teaching example. Every fact in the revision appears in the draft itself.
 
-Leah missed the last bus and walked home. She arrived with wet shoes.
+**Before**
 
-Diagnosis: ordinary coordination and factual accompaniment do not create rhetorical parallelism or decorative with-tagging. A lesson about resilience would add unsupported meaning.
+> Maya, I am writing to ask you to send the revised budget by noon on Friday so that I can review it before Monday's meeting. This is not simply an administrative update; it is an important step toward alignment. If the supplier quote has not arrived by then, please mark that cost as provisional. Your collaboration will pave the way for success.
 
-## Consequential ambiguity
+**After**
 
-Supplied draft: “We may deliver Friday.” User asks to make it sound confident.
+> Maya, please send the revised budget by noon on Friday so I can review it before Monday's meeting. If the supplier quote has not arrived by then, please mark that cost as provisional.
 
-Response outside the deliverable:
+**What changed:** The actual request replaces the ceremonial opening. The conditional instruction survives the cuts.
 
-Does Friday remain tentative, or can you commit to delivery that day?
+**Preservation review:**
 
-Diagnosis: R03 requires clarification before changing a tentative delivery into a promise. A real clarification question is exempt from P04.
+- Recipient, deadline, review purpose and contingency survive.
+- The revision does not promise that the quote will arrive.
+- The request remains polite without an added endorsement.
 
-## Avoid mechanical recasting
+**Rules:** R03, R13, P01, P05, P19.
 
-Supplied material: the sample had a mass of 2 kg. The actor who prepared it is unknown.
+<a id="position"></a>
 
-Acceptable revision:
+## Critical opinion: keep the author's judgment
 
-The sample weighed 2 kg.
+**Task:** Revise an opinion paragraph while retaining the writer's position and reason.
 
-Unacceptable revision:
+**Provenance:** Original fictional opinion; the draft provides the writer's observation and position.
 
-The technician prepared a 2 kg sample.
+**Before**
 
-Diagnosis: the second sentence invents an actor and event. Strong verbs cannot justify new facts.
+> I believe that the proposal is deeply frustrating. At its core, what really matters is that the proposal moves the deadline forward by two weeks but leaves the approval process unchanged. I oppose that change because it gives reviewers less time without removing any required review. This is not progress; it is pressure.
+
+**After**
+
+> I find the proposal frustrating. It moves the deadline forward by two weeks while leaving the approval process unchanged. I oppose the change because reviewers would have less time for the same required review.
+
+**What changed:** The actual reason supports the judgment. The closing slogan disappears without erasing the opposition.
+
+**Preservation review:**
+
+- The opposition and frustration remain attributable to the writer.
+- The deadline shift and unchanged approval process survive.
+- No neutral compromise replaces the stated position.
+
+**Rules:** R03, R06, P01, P05.
+
+<a id="quotation"></a>
+
+## Quotation: keep a banned construction inside the source
+
+**Task:** Keep the exact quoted fragment and its citation while revising the surrounding analysis.
+
+**Provenance:** Original fictional source fragment attributed to Vale on page 12. Quotation punctuation forms part of this fixture.
+
+**Before**
+
+> Vale writes, “Memory is not a record but an argument” (12). This powerful quotation is important because it invites the reader to ask how a recollection supports a position. The sentence does not provide criteria for evaluating that position. This is an important limitation of what the quotation can establish.
+
+**After**
+
+> Vale writes, “Memory is not a record but an argument” (12). The metaphor invites the reader to examine how a recollection supports a position. The sentence leaves the criteria for evaluating that position unspecified.
+
+**What changed:** Interpretation begins at the metaphor's specific function. The source quotation remains intact even though its construction is banned in original prose.
+
+**Preservation review:**
+
+- The entire quoted fragment and citation remain exact.
+- The quoted copula and negative redefinition remain protected.
+- The revision adds no facts about Vale or the surrounding work.
+
+**Rules:** R04, R15, P01, P05, P17.
+
+<a id="narrative"></a>
+
+## Narrative: preserve the scene without inventing a lesson
+
+**Task:** Revise a short scene using only the events and sensory details in the draft.
+
+**Provenance:** Original fictional scene; no biographical claim.
+
+**Before**
+
+> Leah missed the last bus and walked home. By the time she reached her door, her shoes were wet. She left them beside the radiator and went straight to bed. It was a small moment, but one that spoke volumes about the quiet resilience of everyday life.
+
+**After**
+
+> Leah missed the last bus and walked home. She reached her door with wet shoes, left them beside the radiator, and went straight to bed.
+
+**What changed:** The scene ends at the final supplied action. A factual action sequence remains; rhetorical parallelism has not been introduced.
+
+**Preservation review:**
+
+- The missed bus, walk, wet shoes, shoe placement and bedtime survive.
+- No weather or emotional state has been added.
+- The event sequence survives without an explanatory moral.
+
+**Rules:** R02, R13, P18, P19.
+
+<a id="already-clear"></a>
+
+## Already clear: make no unnecessary change
+
+**Task:** Review this message and revise only if it violates the strict profile.
+
+**Provenance:** Original teaching example.
+
+**Before**
+
+> Please send the signed form by Thursday. I need it before booking the room.
+
+**After**
+
+> Please send the signed form by Thursday. I need it before booking the room.
+
+**What changed:** No edit improves fidelity, readability or strict compliance here.
+
+**Preservation review:**
+
+- The unchanged output preserves the deadline and dependency.
+- No new detail, stylistic performance or invented uncertainty appears.
+
+**Rules:** R01, R03, R14.

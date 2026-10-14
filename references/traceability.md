@@ -61,3 +61,7 @@ The foundation consists of four user-supplied teaching screenshots. Their images
 ## Resolving conflicts
 
 Apply the task's explicit instructions and host instruction hierarchy. Within this skill, the approved overrides supersede conflicting screenshot techniques. Protect exact evidence and meaning. If the user requests a new exception, identify which rule changes and limit the exception to that request; never quietly present relaxed output as fully compliant with the unchanged strict profile. A necessary clarification sits outside the finished prose and may use a genuine question.
+
+## 0.2.0 operational refinements
+
+The user requested deeper project development and examination of two reference repositories without copying. This update strengthens examples and usability; it does not relax any strict writing requirement. Task routing, voice-sample boundaries, unchanged-output handling and the source-to-output review operationalize R01–R03, R07, R14 and R16. Every showcased revision now exposes its complete factual input. Every pattern has a worked repair or an explicit missing-evidence response.

@@ -2,9 +2,7 @@
 import hashlib
 from pathlib import Path
 from zipfile import ZIP_DEFLATED, ZipFile, ZipInfo
-from validate import ROOT, RUNTIME, validate
-
-VERSION = "0.1.0"
+from validate import ROOT, RUNTIME, read_version, validate
 
 def build(root=ROOT, output=None):
     root = Path(root).resolve()
@@ -13,7 +11,7 @@ def build(root=ROOT, output=None):
         raise ValueError("\n".join(errors))
     destination = Path(output) if output else root / "dist"
     destination.mkdir(parents=True, exist_ok=True)
-    archive = destination / f"better-ai-writer-v{VERSION}.zip"
+    archive = destination / f"better-ai-writer-v{read_version(root)}.zip"
     with ZipFile(archive, "w", compression=ZIP_DEFLATED) as bundle:
         for name in sorted(RUNTIME):
             info = ZipInfo(f"better-ai-writer/{name}", date_time=(2026, 1, 1, 0, 0, 0))

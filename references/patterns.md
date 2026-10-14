@@ -2,6 +2,18 @@
 
 Apply every entry to original English prose. Examples illustrate disallowed uses; they are not model output to imitate. A pattern is an editorial constraint, never proof of AI authorship. Read the conditions before flagging an isolated word. Protected quotations follow R15. Research support and policy choices appear in [evidence](evidence.md).
 
+## Find a pattern
+
+| Editing problem | Patterns |
+| --- | --- |
+| Framing that delays or replaces the point | P01–P06 |
+| Sentence structures that obscure the relation | P07–P11 |
+| Claims without the necessary support | P12–P15 |
+| Narration and closure imposed on the material | P16–P20 |
+| Repetition across sentences or paragraphs | P21–P22 |
+
+Each worked pair below supplies its complete draft. A clarification example is not finished prose and may ask a real question. The original terse disallowed example isolates the trigger; the worked pair demonstrates a faithful repair with enough context.
+
 ## P01 — Negative redefinition
 
 **Trigger:** Reject a label and substitute another through contrast: “not X but Y,” “less X than Y,” “X? No, Y,” reversed clauses, or a denial followed by a corrective sentence.
@@ -11,6 +23,12 @@ Apply every entry to original English prose. Examples illustrate disallowed uses
 **Repair:** State the supported positive claim directly. Preserve a consequential factual negation in a separate explanation without a staged redefinition.
 
 **Boundary:** A necessary factual denial without a corrective rhetorical frame remains valid; exact quotations remain protected.
+
+**Worked draft:** The delay is not a failure; it is an opportunity. The team will use the extra day to check the calculations.
+
+**Revised prose:** The team will use the extra day to check the calculations.
+
+**Preservation check:** The extra day and planned check survive; the evaluative relabeling contributes no independent detail.
 
 ## P02 — Negative additive upgrade
 
@@ -22,6 +40,12 @@ Apply every entry to original English prose. Examples illustrate disallowed uses
 
 **Boundary:** Ordinary quantitative comparisons remain valid.
 
+**Worked draft:** The archive does more than preserve records; it transforms access. Readers can search its dated entries by name.
+
+**Revised prose:** The archive preserves dated records that readers can search by name.
+
+**Preservation check:** The searchable fields survive. An undefined claim of transformation does not replace a mechanism.
+
 ## P03 — Parallel constructions and rhetorical triads
 
 **Trigger:** Use mirrored clauses, repeated grammatical openings, balanced slogans, or a rhythmic three-part sequence to package an argument. Check adjacent and distant sentences.
@@ -31,6 +55,12 @@ Apply every entry to original English prose. Examples illustrate disallowed uses
 **Repair:** Express the actual relationship in an asymmetrical sequence with appropriate evidence. Do not split a triad into three matching sentences.
 
 **Boundary:** Necessary factual enumeration and coordinated noun phrases may remain when they carry required information without rhetorical parallel framing.
+
+**Worked draft:** The scanner checks each page. The scanner then records each page number. The scanner flags each unreadable page.
+
+**Revised prose:** For each page, the scanner records its number after checking it. It flags any page it cannot read.
+
+**Preservation check:** All three distinct functions survive through causal ordering and a separate condition, without a mirrored sequence.
 
 ## P04 — Question-led exposition
 
@@ -42,6 +72,12 @@ Apply every entry to original English prose. Examples illustrate disallowed uses
 
 **Boundary:** A real clarification question addressed to the user sits outside the finished prose. Necessary quoted questions remain exact.
 
+**Worked draft:** Why does the deadline matter? The printer needs the approved file by Tuesday to prepare the copies for Friday.
+
+**Revised prose:** The printer needs the approved file by Tuesday to prepare the copies for Friday.
+
+**Preservation check:** The dependency replaces the rhetorical opener.
+
 ## P05 — Staged importance
 
 **Trigger:** Announce significance or attention before naming a substantive claim.
@@ -51,6 +87,12 @@ Apply every entry to original English prose. Examples illustrate disallowed uses
 **Repair:** Give the finding and its specific supported consequence.
 
 **Boundary:** An evidence-backed evaluation of significance may remain if it adds information.
+
+**Worked draft:** It is important to note that the second batch arrived two days late.
+
+**Revised prose:** The second batch arrived two days late.
+
+**Preservation check:** The sentence states the consequential fact without announcing importance.
 
 ## P06 — Fabricated reader objection
 
@@ -62,6 +104,12 @@ Apply every entry to original English prose. Examples illustrate disallowed uses
 
 **Boundary:** A supplied person's actual objection may be analyzed accurately.
 
+**Worked draft:** You might be wondering whether the count includes duplicates. The count excludes duplicate entries.
+
+**Revised prose:** The count excludes duplicate entries.
+
+**Preservation check:** No imaginary reader needs to be introduced.
+
 ## P07 — Evaluative participial rider
 
 **Trigger:** Append an -ing clause that declares importance, complexity, or wider meaning without a supported inference.
@@ -71,6 +119,12 @@ Apply every entry to original English prose. Examples illustrate disallowed uses
 **Repair:** Supply the warrant or remove the evaluation.
 
 **Boundary:** A participial clause describing a supplied action or consequence may remain.
+
+**Worked draft:** Enrollment rose from 20 to 24, highlighting a profound transformation in the program.
+
+**Revised prose:** Enrollment rose from 20 to 24.
+
+**Preservation check:** The actual numbers remain; the input supplies no warrant for the scale of transformation.
 
 ## P08 — Repeated participial skeleton
 
@@ -82,6 +136,12 @@ Apply every entry to original English prose. Examples illustrate disallowed uses
 
 **Boundary:** An isolated necessary participle does not trigger this rule.
 
+**Worked draft:** Drawing on the register, I checked the names. Building on that check, I corrected two misspellings.
+
+**Revised prose:** I checked the names against the register and then corrected two misspellings.
+
+**Preservation check:** The evidence source and sequence remain. The correction supplies an actual next step.
+
 ## P09 — Obscuring nominalization
 
 **Trigger:** Stack abstract nouns and light verbs so the actor, action, or causal relation disappears.
@@ -91,6 +151,12 @@ Apply every entry to original English prose. Examples illustrate disallowed uses
 **Repair:** Recover the action and its supplied actor. Retain a technical noun if it names the actual concept.
 
 **Boundary:** Established terms and necessary abstract concepts remain valid.
+
+**Worked draft:** The team performed an examination of the forms and carried out the removal of duplicate fields.
+
+**Revised prose:** The team examined the forms and removed duplicate fields.
+
+**Preservation check:** The known actor takes the actual actions; no result is invented.
 
 ## P10 — Subject-that inference shortcut
 
@@ -102,6 +168,12 @@ Apply every entry to original English prose. Examples illustrate disallowed uses
 
 **Boundary:** Ordinary that-complements and justified inferences remain valid.
 
+**Worked draft:** The fact that she returned proves her resilience.
+
+**Response outside the deliverable:** The draft treats the return as proof of resilience. What supplied evidence supports that judgment?
+
+**Preservation check:** This is a clarification outside the deliverable. A consequential character judgment cannot be replaced with invented motivation.
+
 ## P11 — With/as descriptive tagging
 
 **Trigger:** Habitually append with/as clauses as atmospheric or emotional labels, or imply simultaneity/causality absent from the evidence.
@@ -111,6 +183,12 @@ Apply every entry to original English prose. Examples illustrate disallowed uses
 **Repair:** Describe the supplied event or emotion where the evidence supports it; remove decorative attachment.
 
 **Boundary:** Factual accompaniment, timing, and causal relations may use with/as when accurate.
+
+**Worked draft:** With concern filling the room, the panel postponed its vote, as the future hung in the balance. The minutes record the postponement and give no reason.
+
+**Revised prose:** The minutes record that the panel postponed its vote; they give no reason.
+
+**Preservation check:** The unsupported atmosphere disappears. The documented action and absent explanation remain.
 
 ## P12 — Vague authority
 
@@ -122,6 +200,12 @@ Apply every entry to original English prose. Examples illustrate disallowed uses
 
 **Boundary:** A user-supplied collective attribution can remain at its original strength.
 
+**Worked draft:** Experts agree that the intervention prevents relapse.
+
+**Response outside the deliverable:** Which supplied source supports the claim of expert agreement and relapse prevention?
+
+**Preservation check:** Do not turn unsupported attribution into an unattributed medical assertion. No final rewrite is claimed.
+
 ## P13 — Generic research gap
 
 **Trigger:** Dismiss prior work and announce a gap without identifying the supplied scope and limitation.
@@ -131,6 +215,12 @@ Apply every entry to original English prose. Examples illustrate disallowed uses
 **Repair:** Specify the documented method, failure condition, and contribution.
 
 **Boundary:** A concrete gap supported by the provided literature remains necessary.
+
+**Worked draft:** Existing methods often fall short. Our study fills this critical gap.
+
+**Response outside the deliverable:** Which method, documented limitation and contribution should the introduction describe?
+
+**Preservation check:** Without that material, a polished gap statement would still lack evidence. This question stays outside finished prose.
 
 ## P14 — Promotional result
 
@@ -142,6 +232,12 @@ Apply every entry to original English prose. Examples illustrate disallowed uses
 
 **Boundary:** Supported evaluations must retain their measurement basis.
 
+**Worked draft:** The groundbreaking result unlocks unprecedented efficiency. Median processing time fell from 9 seconds to 7 seconds in the test.
+
+**Revised prose:** Median processing time fell from 9 seconds to 7 seconds in the test.
+
+**Preservation check:** Retain the measure and setting; do not add statistical significance or generalize beyond the test.
+
 ## P15 — Rote concession and pivot
 
 **Trigger:** Use polite acknowledgment followed by however/yet as a reusable rebuttal frame without engaging the actual premise.
@@ -151,6 +247,12 @@ Apply every entry to original English prose. Examples illustrate disallowed uses
 **Repair:** Identify the supplied concern and resolve the precise point at issue.
 
 **Boundary:** Respectful acknowledgment with substantive engagement remains appropriate.
+
+**Worked draft:** Your scheduling concern is valid. However, it overlooks the bigger picture. The review takes two days, and we can start on Wednesday to meet Friday's deadline.
+
+**Revised prose:** We can start the two-day review on Wednesday to meet Friday's deadline.
+
+**Preservation check:** The schedule answers the actual concern without a ceremonial concession or dismissive pivot.
 
 ## P16 — Decorative scene opener
 
@@ -162,6 +264,12 @@ Apply every entry to original English prose. Examples illustrate disallowed uses
 
 **Boundary:** A supplied scene integral to a narrative may remain.
 
+**Worked draft:** In today's rapidly evolving landscape, the library continues its journey. The reading room reopens on Monday.
+
+**Revised prose:** The library's reading room reopens on Monday.
+
+**Preservation check:** The concrete change supplies the opening.
+
 ## P17 — Mechanical quotation framing
 
 **Trigger:** Place a quote at a predictable paragraph slot or make all speakers sound alike through repeated attribution and commentary.
@@ -171,6 +279,12 @@ Apply every entry to original English prose. Examples illustrate disallowed uses
 **Repair:** Preserve exact words and source. Put the quotation where its specific evidence matters and explain that evidence.
 
 **Boundary:** Do not rewrite quoted speech to vary its voice or evade another pattern.
+
+**Worked draft:** As Neri aptly puts it, “The tally excludes refunds” (6). This powerful quote reminds us of the importance of careful interpretation.
+
+**Revised prose:** Neri writes, “The tally excludes refunds” (6).
+
+**Preservation check:** The supplied quotation and citation remain exact; praise of the quote supplies no analytical warrant.
 
 ## P18 — Thematic overexplanation
 
@@ -182,6 +296,12 @@ Apply every entry to original English prose. Examples illustrate disallowed uses
 
 **Boundary:** Analytical discussion of a narrative can explicitly interpret evidence without circular repetition.
 
+**Worked draft:** Owen closed the shop and placed the key in the drawer. This act captured the enduring importance of closure.
+
+**Revised prose:** Owen closed the shop and placed the key in the drawer.
+
+**Preservation check:** The actions survive without a thematic label that merely restates closure.
+
 ## P19 — Unearned optimism
 
 **Trigger:** Finish with uplift, hope, resilience, or progress unsupported by the supplied material.
@@ -191,6 +311,12 @@ Apply every entry to original English prose. Examples illustrate disallowed uses
 **Repair:** End at the actual result, condition, or unresolved issue.
 
 **Boundary:** A supported positive outcome may be stated at its true scope.
+
+**Worked draft:** The clinic postponed the appointment. A brighter future now awaits.
+
+**Revised prose:** The clinic postponed the appointment.
+
+**Preservation check:** Nothing in the input supports the optimistic prediction.
 
 ## P20 — Forced tidy closure
 
@@ -202,6 +328,12 @@ Apply every entry to original English prose. Examples illustrate disallowed uses
 
 **Boundary:** Confirmed affairs may close directly; do not manufacture uncertainty.
 
+**Worked draft:** The panel recorded two objections and deferred its decision. This brings the discussion to a satisfying conclusion.
+
+**Revised prose:** The panel recorded two objections and deferred its decision.
+
+**Preservation check:** The deferred decision remains open. The generic declaration of closure adds no result. A substantive claim of actual agreement would require preservation or clarification.
+
 ## P21 — Repeated syntactic or semantic skeleton
 
 **Trigger:** Recycle a sentence frame or claim relationship under new synonyms, including cross-paragraph recurrence.
@@ -212,6 +344,12 @@ Apply every entry to original English prose. Examples illustrate disallowed uses
 
 **Boundary:** A repeated technical term alone does not establish a template.
 
+**Worked draft:** The first interview lasted 30 minutes, revealing the depth of the discussion. The second interview lasted 45 minutes, highlighting the depth of the discussion.
+
+**Revised prose:** The first interview lasted 30 minutes. The second took 45 minutes.
+
+**Preservation check:** Durations survive; repeated evaluative frames add no supplied information about depth.
+
 ## P22 — Paragraph function loop
 
 **Trigger:** Repeat definition, example, broad lesson, and recap without accumulating new argument; restate the same thesis in successive paragraphs.
@@ -221,3 +359,9 @@ Apply every entry to original English prose. Examples illustrate disallowed uses
 **Repair:** Assign each paragraph a new warranted contribution and delete loops. Rebuild order if every paragraph returns to the same starting point.
 
 **Boundary:** A deliberate recap may remain only when a reader needs it to follow a new consequential step.
+
+**Worked draft:** The review took two days. This shows how long the review lasted. / The process required two days. Overall, the review lasted two days.
+
+**Revised prose:** The review took two days.
+
+**Preservation check:** Both paragraphs contribute the same duration. Keeping a single statement preserves the complete factual content.

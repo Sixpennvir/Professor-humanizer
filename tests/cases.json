@@ -317,5 +317,107 @@
       "P21",
       "P22"
     ]
+  },
+  {
+    "id": "enrollment_not_completion",
+    "input": "Use $better-ai-writer. Revise: The pilot enrolled 18 people. The report does not give a completion count.",
+    "expect": [
+      "Preserve enrollment as enrollment.",
+      "Do not assert all 18 completed the task."
+    ],
+    "rules": [
+      "R02",
+      "R03"
+    ]
+  },
+  {
+    "id": "voice_only",
+    "input": "Use $better-ai-writer. Voice-only sample: I spent six years in Nairobi. I like a direct opening. Target draft: The library closes at noon on Saturday. Revise the target without borrowing facts from the voice sample.",
+    "expect": [
+      "Keep the closure time.",
+      "Do not import Nairobi, six years, personal experience or a new opinion."
+    ],
+    "rules": [
+      "R02",
+      "R03"
+    ]
+  },
+  {
+    "id": "clear_no_change",
+    "input": "Use $better-ai-writer. Revise only if needed: Please send the signed form by Thursday. I need it before booking the room.",
+    "expect": [
+      "Return the clear compliant message without unnecessary rewriting.",
+      "Preserve deadline and dependency."
+    ],
+    "rules": [
+      "R01",
+      "R14"
+    ]
+  },
+  {
+    "id": "substantive_opinion",
+    "input": "Use $better-ai-writer. Revise: I find the proposal frustrating. It moves the deadline forward by two weeks but leaves every approval requirement unchanged. I oppose it because reviewers would have less time for the same work.",
+    "expect": [
+      "Retain frustration and opposition.",
+      "Retain reason and two-week shift.",
+      "Do not invent agreement or neutralize the opinion."
+    ],
+    "rules": [
+      "R03",
+      "R06"
+    ]
+  },
+  {
+    "id": "source_conflict",
+    "input": "Use $better-ai-writer. Source note: launch remains tentative for June. Draft: We guarantee launch in June. Revise without altering our commitments.",
+    "expect": [
+      "Identify the conflict before claiming a finished revision.",
+      "Do not silently promise launch or weaken the guarantee."
+    ],
+    "rules": [
+      "R02",
+      "R03"
+    ]
+  },
+  {
+    "id": "diagnosis_only",
+    "input": "Use $better-ai-writer to diagnose this text without rewriting it: The review took two days. The review lasted two days. This shows the review required two days.",
+    "expect": [
+      "Identify exact repetition with R07 or P22 and a proposed action.",
+      "Do not deliver a replacement draft as if requested."
+    ],
+    "rules": [
+      "R07",
+      "R16",
+      "P22"
+    ]
+  },
+  {
+    "id": "paragraph_argument",
+    "input": "Use $better-ai-writer. Revise these paragraphs, keeping the evidence and inference. The narrator writes 'I remember the room exactly' (4), then 'Perhaps the door opened onto the garden' (4). This move to uncertainty gives the reader a reason to revisit the initial confidence. The passage matters because it shows complexity. Confidence cannot establish the memory's accuracy. The passage supplies no independent account of the door. In conclusion, memory is complex.",
+    "expect": [
+      "Keep both quoted fragments and citations.",
+      "Connect the change in certainty to confidence, then its evidentiary limit.",
+      "Remove repeated complexity claims without adding a theory of memory."
+    ],
+    "rules": [
+      "R04",
+      "R07",
+      "R15",
+      "P22"
+    ]
+  },
+  {
+    "id": "faithful_summary_conditions",
+    "input": "Use $better-ai-writer. Revise: Please submit the estimate by noon on Friday. If the supplier quote has not arrived, mark that cost as provisional. This is a powerful step toward alignment.",
+    "expect": [
+      "Keep deadline and supplier contingency.",
+      "Do not shorten away the provisional-cost instruction."
+    ],
+    "rules": [
+      "R03",
+      "P05",
+      "P14"
+    ]
   }
 ]

@@ -1,0 +1,203 @@
+[
+  {
+    "id": "close-reading",
+    "title": "Close reading: make the inference visible",
+    "task": "Revise a two-paragraph interpretation for a reader who knows the passage. Preserve the interpretation and its limit.",
+    "provenance": "Original teaching example. The fictional passage and page references appear entirely in the draft. No real author or work is implied.",
+    "before": "The narrator's description is not merely a recollection of a room; it is a profound exploration of memory's complexity. She first claims, “I remember the room exactly” (4). Later she writes, “Perhaps the door opened onto the garden” (4). Why is this significant? The movement from “exactly” to “Perhaps” changes the certainty of the description. It is a movement from confidence to hesitation, highlighting the complex nature of remembering.\n\nThe passage is important because the opening assurance encourages the reader to trust the description, while the later qualification gives the reader a reason to reconsider that trust. This shows that certainty in telling a memory cannot establish the accuracy of the memory. Yet the passage gives no independent account of where the door actually opened. It therefore leaves the description's accuracy unresolved. Ultimately, this uncertainty underscores the complexity of memory.",
+    "after": "The narrator qualifies her initial confidence. She first claims, “I remember the room exactly” (4). Later, “Perhaps the door opened onto the garden” (4) makes one detail tentative. The shift from “exactly” to “Perhaps” gives the reader a specific reason to reconsider the opening assurance.\n\nThe passage offers no independent account of where the door opened. That absence leaves the memory's accuracy unresolved: the narrator's confidence alone cannot establish whether the description matches the room.",
+    "protected": [
+      "“I remember the room exactly”",
+      "“Perhaps the door opened onto the garden”",
+      "(4)"
+    ],
+    "checks": [
+      "Both quotations and page references survive exactly.",
+      "The shift in certainty grounds the reading; no motive or additional scene appears.",
+      "The final limit concerns independent confirmation, not a new general theory of memory."
+    ],
+    "changes": [
+      "The first paragraph connects a precise word change to the reader's reason for revising trust.",
+      "The second develops the evidentiary limit instead of repeating that memory is complex.",
+      "The revision preserves the argument's scope while removing rhetorical staging."
+    ],
+    "rules": [
+      "R04",
+      "R07",
+      "R12",
+      "P01",
+      "P04",
+      "P07",
+      "P22"
+    ]
+  },
+  {
+    "id": "research",
+    "title": "Research summary: keep the finding within the design",
+    "task": "Revise the summary without changing the stated result or causal limitation.",
+    "provenance": "Original fictional study summary; all data and limitations appear in the draft.",
+    "before": "It is important to note that the pilot included 18 participants. Mean completion time fell from 14 minutes to 11 minutes after the form redesign, highlighting the potential importance of the change. However, the pilot had no comparison group. The team therefore could not determine how much of the reduction resulted from the redesign. No significance test was reported. These limitations are a reminder that further research is important.",
+    "after": "The pilot included 18 participants. Mean completion time fell from 14 minutes to 11 minutes after the form redesign. With no comparison group, the team could not determine how much of the reduction resulted from the redesign. The report included no significance test.",
+    "protected": [
+      "18 participants",
+      "14 minutes",
+      "11 minutes"
+    ],
+    "checks": [
+      "Sample size and both times survive.",
+      "Absence of a comparison group and significance test survives.",
+      "No causal or statistical conclusion has been added."
+    ],
+    "changes": [
+      "The numerical result leads directly to the design limitation.",
+      "The closing sentence retains the missing test; a generic appeal for more research adds nothing."
+    ],
+    "rules": [
+      "R03",
+      "R12",
+      "P05",
+      "P07",
+      "P20"
+    ]
+  },
+  {
+    "id": "email",
+    "title": "Professional email: preserve the complete request",
+    "task": "Revise the email for a colleague who already knows the meeting.",
+    "provenance": "Original teaching example. Every fact in the revision appears in the draft itself.",
+    "before": "Maya, I am writing to ask you to send the revised budget by noon on Friday so that I can review it before Monday's meeting. This is not simply an administrative update; it is an important step toward alignment. If the supplier quote has not arrived by then, please mark that cost as provisional. Your collaboration will pave the way for success.",
+    "after": "Maya, please send the revised budget by noon on Friday so I can review it before Monday's meeting. If the supplier quote has not arrived by then, please mark that cost as provisional.",
+    "protected": [
+      "Maya",
+      "noon on Friday",
+      "Monday's meeting",
+      "supplier quote",
+      "provisional"
+    ],
+    "checks": [
+      "Recipient, deadline, review purpose and contingency survive.",
+      "The revision does not promise that the quote will arrive.",
+      "The request remains polite without an added endorsement."
+    ],
+    "changes": [
+      "The actual request replaces the ceremonial opening.",
+      "The conditional instruction survives the cuts."
+    ],
+    "rules": [
+      "R03",
+      "R13",
+      "P01",
+      "P05",
+      "P19"
+    ]
+  },
+  {
+    "id": "position",
+    "title": "Critical opinion: keep the author's judgment",
+    "task": "Revise an opinion paragraph while retaining the writer's position and reason.",
+    "provenance": "Original fictional opinion; the draft provides the writer's observation and position.",
+    "before": "I believe that the proposal is deeply frustrating. At its core, what really matters is that the proposal moves the deadline forward by two weeks but leaves the approval process unchanged. I oppose that change because it gives reviewers less time without removing any required review. This is not progress; it is pressure.",
+    "after": "I find the proposal frustrating. It moves the deadline forward by two weeks while leaving the approval process unchanged. I oppose the change because reviewers would have less time for the same required review.",
+    "protected": [
+      "two weeks"
+    ],
+    "checks": [
+      "The opposition and frustration remain attributable to the writer.",
+      "The deadline shift and unchanged approval process survive.",
+      "No neutral compromise replaces the stated position."
+    ],
+    "changes": [
+      "The actual reason supports the judgment.",
+      "The closing slogan disappears without erasing the opposition."
+    ],
+    "rules": [
+      "R03",
+      "R06",
+      "P01",
+      "P05"
+    ]
+  },
+  {
+    "id": "quotation",
+    "title": "Quotation: keep a banned construction inside the source",
+    "task": "Keep the exact quoted fragment and its citation while revising the surrounding analysis.",
+    "provenance": "Original fictional source fragment attributed to Vale on page 12. Quotation punctuation forms part of this fixture.",
+    "before": "Vale writes, “Memory is not a record but an argument” (12). This powerful quotation is important because it invites the reader to ask how a recollection supports a position. The sentence does not provide criteria for evaluating that position. This is an important limitation of what the quotation can establish.",
+    "after": "Vale writes, “Memory is not a record but an argument” (12). The metaphor invites the reader to examine how a recollection supports a position. The sentence leaves the criteria for evaluating that position unspecified.",
+    "protected": [
+      "Vale",
+      "“Memory is not a record but an argument”",
+      "(12)"
+    ],
+    "checks": [
+      "The entire quoted fragment and citation remain exact.",
+      "The quoted copula and negative redefinition remain protected.",
+      "The revision adds no facts about Vale or the surrounding work."
+    ],
+    "changes": [
+      "Interpretation begins at the metaphor's specific function.",
+      "The source quotation remains intact even though its construction is banned in original prose."
+    ],
+    "rules": [
+      "R04",
+      "R15",
+      "P01",
+      "P05",
+      "P17"
+    ]
+  },
+  {
+    "id": "narrative",
+    "title": "Narrative: preserve the scene without inventing a lesson",
+    "task": "Revise a short scene using only the events and sensory details in the draft.",
+    "provenance": "Original fictional scene; no biographical claim.",
+    "before": "Leah missed the last bus and walked home. By the time she reached her door, her shoes were wet. She left them beside the radiator and went straight to bed. It was a small moment, but one that spoke volumes about the quiet resilience of everyday life.",
+    "after": "Leah missed the last bus and walked home. She reached her door with wet shoes, left them beside the radiator, and went straight to bed.",
+    "protected": [
+      "Leah",
+      "last bus",
+      "radiator",
+      "bed"
+    ],
+    "checks": [
+      "The missed bus, walk, wet shoes, shoe placement and bedtime survive.",
+      "No weather or emotional state has been added.",
+      "The event sequence survives without an explanatory moral."
+    ],
+    "changes": [
+      "The scene ends at the final supplied action.",
+      "A factual action sequence remains; rhetorical parallelism has not been introduced."
+    ],
+    "rules": [
+      "R02",
+      "R13",
+      "P18",
+      "P19"
+    ]
+  },
+  {
+    "id": "already-clear",
+    "title": "Already clear: make no unnecessary change",
+    "task": "Review this message and revise only if it violates the strict profile.",
+    "provenance": "Original teaching example.",
+    "before": "Please send the signed form by Thursday. I need it before booking the room.",
+    "after": "Please send the signed form by Thursday. I need it before booking the room.",
+    "protected": [
+      "Thursday",
+      "signed form",
+      "booking the room"
+    ],
+    "checks": [
+      "The unchanged output preserves the deadline and dependency.",
+      "No new detail, stylistic performance or invented uncertainty appears."
+    ],
+    "changes": [
+      "No edit improves fidelity, readability or strict compliance here."
+    ],
+    "rules": [
+      "R01",
+      "R03",
+      "R14"
+    ]
+  }
+]
