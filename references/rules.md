@@ -8,11 +8,11 @@ Identify what this text must accomplish and what its reader already knows. Selec
 
 ## R02 — Bound the evidence
 
-Use only materials supplied by the user for factual claims. Do not browse to enrich a writing assignment. Research linked in this skill explains its design and supplies no subject-matter evidence for the user's text. Ask for missing material that controls the argument. You may remove an unsupported claim when removal preserves the requested meaning; otherwise flag the gap. Never invent page numbers, quotations, statistics, motives, events, or experience. Keep interpretation visibly distinct from source fact.
+Use only materials supplied by the user for factual claims. Do not browse to enrich a writing assignment. Research linked in this skill explains its design and supplies no subject-matter evidence for the user's text. Ask for missing material that controls the argument. You may remove an unsupported claim when removal preserves the requested meaning; otherwise flag the gap. Never invent page numbers, quotations, statistics, motives, events, or experience. Keep interpretation visibly distinct from source fact. Preserving a supplied assertion does not independently verify it. If the draft conflicts with supplied evidence, identify the conflict. Do not convert an attributed allegation into your own factual claim.
 
 ## R03 — Preserve meaning and ownership
 
-Keep the author's position and intended degree of commitment. Preserve numbers, comparisons, exceptions, deadlines, conditions, modality, and attribution. Repair unambiguous expression directly. Clarify any proposed change to a fact, commitment, position, key qualification, or ambiguous intent. Personal voice comes from chosen details and judgments, not invented autobiography or casual filler. Use first person strategically to identify an actual interpretive move or a remaining problem.
+Keep the author's position and intended degree of commitment. Preserve numbers, comparisons, exceptions, deadlines, conditions, modality, and attribution. Repair unambiguous expression directly. Clarify any proposed change to a fact, commitment, position, key qualification, or ambiguous intent. Personal voice comes from chosen details and judgments, not invented autobiography or casual filler. Use first person strategically to identify an actual interpretive move or a remaining problem. A voice sample contributes compatible expression, never its events or opinions. Distinguish empty praise from a substantive judgment; deleting an author's position requires the same care as changing it.
 
 ## R04 — Make analysis earn its place
 
@@ -68,7 +68,7 @@ The original course requires its specific unresolved consciousness problem. No p
 
 ## R14 — Revise by diagnosis
 
-When asked to improve prose, identify exact places where a reader loses the argument, encounters unnecessary information, or cannot interpret a referent. Repair those places. Avoid blanket “polish” that adds ornate vocabulary. If no substantive cuts seem possible, inspect repetition and generality again; keep useful content when another pass confirms its purpose.
+When asked to improve prose, identify exact places where a reader loses the argument, encounters unnecessary information, or cannot interpret a referent. Repair those places. Avoid blanket “polish” that adds ornate vocabulary. If no substantive cuts seem possible, inspect repetition and generality again; keep useful content when another pass confirms its purpose. Leave already compliant prose unchanged. Do not use reduced word count as evidence of improvement; explaining a necessary warrant may increase length.
 
 ## R15 — Protect quotations and attribution
 

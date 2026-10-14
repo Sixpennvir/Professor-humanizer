@@ -18,7 +18,7 @@ class ProjectToolsTests(unittest.TestCase):
         self.temp = tempfile.TemporaryDirectory()
         self.addCleanup(self.temp.cleanup)
         self.root = Path(self.temp.name) / "better-ai-writer"
-        for name in (*RUNTIME, "tests/cases.json"):
+        for name in (*RUNTIME, "tests/cases.json", "examples/showcases.json"):
             dest = self.root / name
             dest.parent.mkdir(parents=True, exist_ok=True)
             shutil.copyfile(ROOT / name, dest)
@@ -75,6 +75,19 @@ class ProjectToolsTests(unittest.TestCase):
         with ZipFile(archive) as bundle:
             bundle.extractall(extracted)
         self.assertEqual(validate(extracted / "better-ai-writer"), [])
+
+    def test_version_controls_archive_name(self):
+        path = self.root / "SKILL.md"
+        text = path.read_text(encoding="utf-8").replace('version: "0.2.0"', 'version: "0.2.1"')
+        path.write_text(text, encoding="utf-8")
+        archive, _ = build(self.root)
+        self.assertEqual(archive.name, "better-ai-writer-v0.2.1.zip")
+
+    def test_invalid_version_blocks_archive(self):
+        path = self.root / "SKILL.md"
+        path.write_text(path.read_text(encoding="utf-8").replace('version: "0.2.0"', 'version: "../bad"'), encoding="utf-8")
+        with self.assertRaises(ValueError):
+            build(self.root)
 
 if __name__ == "__main__":
     unittest.main()

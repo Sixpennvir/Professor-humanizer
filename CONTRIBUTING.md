@@ -1,11 +1,23 @@
 # Contributing
 
-Please open an issue with a concrete example before proposing a new rule. Include supplied facts, the problematic draft, a faithful revision, and the relevant rule IDs. Remove private or copyrighted material you cannot share.
+Start with a concrete passage and the editing problem. Include the full input, desired behavior and relevant rule IDs. Remove private material and use examples you have permission to share.
 
-Distinguish a measured research finding from an editorial preference. Link the primary source and describe its sample and limits. Do not label an expression an AI marker solely because one model produced it.
+## Example contract
 
-Keep mandatory rules in the entrypoint and the appropriate reference. Update traceability when a requirement changes. Preserve the course-specific scope and quotation protection. Add a behavioral case for any semantic boundary affected by the change.
+Every before/after demonstration must expose all the facts needed for its revision inside the before text. Keep the recipient, quantities, conditions, attribution and substantive position. A shorter revision fails if it loses an independent claim.
 
-Run the commands in the README. Inspect the release ZIP and review actual model output for meaningful rule changes. Structural checks alone cannot justify a behavioral pass.
+Write original examples. Do not copy passages from other skills or their documentation. Attribute a design observation in the [design review](docs/design-review.md) when it influences this project. A reference project's policy does not override this project's mandatory rules.
 
-Use ordinary pull requests. Describe the concrete failure and revised behavior, then report what you actually tested. Contributions are offered under the repository's MIT license.
+For the featured examples, edit [showcases.json](examples/showcases.json) and regenerate with `python scripts/showcases.py --write`. Check protected anchors and perform a semantic comparison. Keep unchanged-output and clarification cases where an automatic rewrite would harm meaning.
+
+## Rule changes
+
+Describe the trigger, repair, and boundary. Distinguish research evidence from editorial preference. Use a primary source for an empirical claim and state its scope. Update traceability when a requirement changes.
+
+Preserve the course profile and strict English-writing scope. A proposed exception to a mandatory ban needs an explicit policy decision; it cannot arrive disguised as a stylistic improvement.
+
+## Verification and review
+
+Follow [development](docs/development.md) for local checks and packaging. Add a behavioral case for a changed decision boundary. Keep model outputs and authored examples separate. Record only checks that actually ran; do not invent community research, user feedback or performance figures.
+
+Open a focused pull request. Describe the concrete failure and resulting behavior, then list verification and remaining limits. Contributions follow the repository's MIT license.
