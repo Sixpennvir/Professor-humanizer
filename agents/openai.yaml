@@ -1,4 +1,4 @@
 interface:
-  display_name: "Better AI Writer"
+  display_name: "Professor Humanizer"
   short_description: "Improve long-form English; preserve the author's reasoning"
-  default_prompt: "Use $better-ai-writer to revise my long-form English draft while preserving my reasoning and using only the supplied material."
+  default_prompt: "Use $professor-humanizer to revise my long-form English draft while preserving my reasoning and using only the supplied material."

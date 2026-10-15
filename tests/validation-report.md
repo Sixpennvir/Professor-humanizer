@@ -1,6 +1,6 @@
 # Validation report
 
-Date: 2026-10-14. Version: 0.2.0. Local tooling: Windows, Python 3.12.13.
+Date: 2026-10-14. Version: 0.3.0. Local tooling: Windows, Python 3.12.13.
 
 ## Executed tooling checks
 
@@ -17,7 +17,7 @@ The archive includes the long-form teaching example. A passing structural check 
 
 ## Long-form smoke check
 
-A fresh-context Codex subagent revised the complete 933-word fictional draft without access to the authored revision or expected invariants. The [actual input and output](runs/long-form-smoke.json) record this run. The implementing assistant compared the response against the draft and the skill; the recorded checks passed for this response.
+Using version 0.2.0 under the Better AI Writer name, a fresh-context Codex subagent revised the complete 933-word fictional draft without access to the authored revision or expected invariants. The [actual input and output](runs/long-form-smoke.json) record this run. The implementing assistant compared the response against the draft and the skill; the recorded checks passed for this response.
 
 The response preserves the methodological judgment, exact quotations and technical distinctions. It retains the practical objection and the conditional ending while removing non-adjacent repetition. The authored teaching revision remains a separate artifact.
 

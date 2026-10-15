@@ -10,14 +10,14 @@ from zipfile import ZipFile
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
-from validate import RUNTIME, validate
+from validate import RUNTIME, read_version, validate
 from package import build
 
 class ProjectToolsTests(unittest.TestCase):
     def setUp(self):
         self.temp = tempfile.TemporaryDirectory()
         self.addCleanup(self.temp.cleanup)
-        self.root = Path(self.temp.name) / "better-ai-writer"
+        self.root = Path(self.temp.name) / "professor-humanizer"
         for name in (*RUNTIME, "tests/cases.json", "examples/showcases.json"):
             dest = self.root / name
             dest.parent.mkdir(parents=True, exist_ok=True)
@@ -58,7 +58,7 @@ class ProjectToolsTests(unittest.TestCase):
         archive, checksum = build(self.root)
         with ZipFile(archive) as bundle:
             names = set(bundle.namelist())
-            self.assertEqual(names, {"better-ai-writer/" + p for p in RUNTIME})
+            self.assertEqual(names, {"professor-humanizer/" + p for p in RUNTIME})
             self.assertTrue(all(".." not in Path(n).parts for n in names))
         self.assertEqual(checksum.read_text().split()[0],
                          hashlib.sha256(archive.read_bytes()).hexdigest())
@@ -74,18 +74,20 @@ class ProjectToolsTests(unittest.TestCase):
         extracted = self.root.parent / "extracted"
         with ZipFile(archive) as bundle:
             bundle.extractall(extracted)
-        self.assertEqual(validate(extracted / "better-ai-writer"), [])
+        self.assertEqual(validate(extracted / "professor-humanizer"), [])
 
     def test_version_controls_archive_name(self):
         path = self.root / "SKILL.md"
-        text = path.read_text(encoding="utf-8").replace('version: "0.2.0"', 'version: "0.2.1"')
+        current_version = read_version(self.root)
+        text = path.read_text(encoding="utf-8").replace(f'version: "{current_version}"', 'version: "9.8.7"')
         path.write_text(text, encoding="utf-8")
         archive, _ = build(self.root)
-        self.assertEqual(archive.name, "better-ai-writer-v0.2.1.zip")
+        self.assertEqual(archive.name, "professor-humanizer-v9.8.7.zip")
 
     def test_invalid_version_blocks_archive(self):
         path = self.root / "SKILL.md"
-        path.write_text(path.read_text(encoding="utf-8").replace('version: "0.2.0"', 'version: "../bad"'), encoding="utf-8")
+        current_version = read_version(self.root)
+        path.write_text(path.read_text(encoding="utf-8").replace(f'version: "{current_version}"', 'version: "../bad"'), encoding="utf-8")
         with self.assertRaises(ValueError):
             build(self.root)
 

@@ -37,4 +37,4 @@ For comparative claims, preserve actual baseline and skill-enabled runs under co
 
 ## Current status
 
-The project has not completed the full 36-case behavioral evaluation for 0.2.0. One [recorded long-form smoke check](runs/long-form-smoke.json) includes an actual response from a fresh-context agent and the implementing assistant's review. Its unknown model identifier and lack of a baseline limit the conclusions. Authored examples establish intended behavior only. The [validation report](validation-report.md) describes the executed checks and remaining gaps.
+The project has not completed the full 36-case behavioral evaluation. One [recorded long-form smoke check](runs/long-form-smoke.json), run with version 0.2.0 under the Better AI Writer name, includes an actual response from a fresh-context agent and the implementing assistant's review. Its unknown model identifier and lack of a baseline limit the conclusions. Authored examples establish intended behavior only. The [validation report](validation-report.md) describes the executed checks and remaining gaps.

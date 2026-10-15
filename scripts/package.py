@@ -11,10 +11,10 @@ def build(root=ROOT, output=None):
         raise ValueError("\n".join(errors))
     destination = Path(output) if output else root / "dist"
     destination.mkdir(parents=True, exist_ok=True)
-    archive = destination / f"better-ai-writer-v{read_version(root)}.zip"
+    archive = destination / f"professor-humanizer-v{read_version(root)}.zip"
     with ZipFile(archive, "w", compression=ZIP_DEFLATED) as bundle:
         for name in sorted(RUNTIME):
-            info = ZipInfo(f"better-ai-writer/{name}", date_time=(2026, 1, 1, 0, 0, 0))
+            info = ZipInfo(f"professor-humanizer/{name}", date_time=(2026, 1, 1, 0, 0, 0))
             info.compress_type = ZIP_DEFLATED
             info.create_system = 3
             info.external_attr = 0o100644 << 16

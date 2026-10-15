@@ -56,7 +56,7 @@ The foundation consists of four user-supplied teaching screenshots. The reposito
 | Endings adapt to task | R13; course C05 remains exploratory |
 | Fix expression directly; clarify consequential meaning changes | R03 |
 | Broader pattern research and strict exclusion | P01–P22, evidence record |
-| Open-source project Better AI Writer under MIT | Repository packaging and license |
+| Open-source project Professor Humanizer under MIT | Repository packaging and license |
 
 ## Resolving conflicts
 

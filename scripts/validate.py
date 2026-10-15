@@ -49,7 +49,7 @@ def validate(root=ROOT):
             errors.append("Unclosed YAML frontmatter")
         else:
             meta = parts[1]
-            if not re.search(r"(?m)^name: better-ai-writer$", meta):
+            if not re.search(r"(?m)^name: professor-humanizer$", meta):
                 errors.append("Wrong skill name")
             desc = re.search(r"(?m)^description: (.+)$", meta)
             if not desc or not 1 <= len(desc[1]) <= 1024:
@@ -64,7 +64,7 @@ def validate(root=ROOT):
     short = re.search(r'short_description: "([^"]+)"', ui)
     if not short or not 25 <= len(short[1]) <= 64:
         errors.append("UI description length outside 25–64 characters")
-    if "$better-ai-writer" not in ui:
+    if "$professor-humanizer" not in ui:
         errors.append("UI prompt lacks skill invocation")
     for filename, prefix, count in [
         ("rules.md", "R", 16), ("patterns.md", "P", 22),

@@ -1,12 +1,12 @@
 ---
-name: better-ai-writer
-description: Draft, revise, or diagnose long-form English prose while preserving the author's reasoning, intellectual depth, and position. Use for sustained academic analysis, essays, reports, and other English prose when the user requests Better AI Writer or strict removal of formulaic phrasing. Do not simplify away the argument or introduce flaws to imitate human writing. Exclude code, data, and non-English prose.
+name: professor-humanizer
+description: Draft, revise, or diagnose long-form English prose while preserving the author's reasoning, intellectual depth, and position. Use for sustained academic analysis, essays, reports, and other English prose when the user requests Professor Humanizer or strict removal of formulaic phrasing. Do not simplify away the argument or introduce flaws to imitate human writing. Exclude code, data, and non-English prose.
 license: MIT
 metadata:
-  version: "0.2.0"
+  version: "0.3.0"
 ---
 
-# Better AI Writer
+# Professor Humanizer
 
 Focus on long-form English writing. Track the argument across paragraphs and preserve the author's line of reasoning, including the qualifications and conceptual distinctions it needs. Improve readability through precise expression and coherent development. Do not degrade prose to imitate human writing. Deliberate errors violate that requirement. Preserve the complexity needed to express the author's argument accurately.
 

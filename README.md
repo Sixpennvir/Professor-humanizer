@@ -1,14 +1,14 @@
-# Better AI Writer
+# Professor Humanizer
 
 **Long-form English writing with the author's reasoning intact.**
 
-Better AI Writer supports long-form English writing with close attention to the author's argument. During drafting and revision, it checks each paragraph's contribution and follows the connections between claims and their supporting evidence. Edits should improve readability through precise expression while retaining the intellectual depth of the original.
+Professor Humanizer guides AI agents through long-form English writing with close attention to the author's argument. During drafting and revision, it checks each paragraph's contribution and follows the connections between claims and their supporting evidence. Edits should improve readability through precise expression while retaining the intellectual depth of the original.
 
 The skill rejects deliberate errors or degraded prose as shortcuts to a human voice. It preserves the distinctions and qualifications that give a complex argument its meaning, even when they require a longer explanation.
 
-[Examples](references/examples.md) · [Install](docs/usage.md) · [Writing rules](references/rules.md) · [Pattern catalogue](references/patterns.md) · [Evaluation](tests/README.md)
+[Examples](references/examples.md) · [Install](docs/usage.md) · [Writing rules](references/rules.md) · [Pattern catalogue](references/patterns.md) · [Evaluation](tests/README.md) · [Discussion](https://github.com/Sixpennvir/professor-humanizer/discussions/2)
 
-[**Download v0.2.0**](https://github.com/Sixpennvir/better-ai-writer/releases/tag/v0.2.0) · [MIT license](LICENSE)
+[**Download v0.3.0**](https://github.com/Sixpennvir/professor-humanizer/releases/tag/v0.3.0) · [MIT license](LICENSE)
 
 ## Revision Examples
 
@@ -57,13 +57,13 @@ These restrictions express the project's chosen style. They apply across scenari
 For a repository-scoped Codex setup, run this from the project where you want to use the skill:
 
 ```bash
-git clone https://github.com/Sixpennvir/better-ai-writer.git .agents/skills/better-ai-writer
+git clone https://github.com/Sixpennvir/professor-humanizer.git .agents/skills/professor-humanizer
 ```
 
 Then invoke:
 
 ```text
-Use $better-ai-writer to revise the draft below.
+Use $professor-humanizer to revise the draft below.
 Audience: readers familiar with the source passage.
 Preserve my interpretation, quotations, and qualifications.
 Use only the material supplied here. Return the revised prose.
@@ -96,6 +96,8 @@ The README example and detailed gallery come from the same data. Checks catch do
 
 ## Contribute
 
+Share an original passage and its revision in the [feedback discussion](https://github.com/Sixpennvir/professor-humanizer/discussions/2). Explain where the edit changes your meaning or leaves repetition unresolved. Include the prompt and model so others can examine the same case.
+
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the example contract and review process. Maintainer commands and packaging details live in [development](docs/development.md). The maintainer reviews and verifies changes before updating the repository.
 
-[MIT license](LICENSE). The instructional foundation comes from user-supplied course guidance. Better AI Writer contains independently authored instructions and examples and has no dependency on another writing skill.
+[MIT license](LICENSE). The instructional foundation comes from user-supplied course guidance. Professor Humanizer contains independently authored instructions and examples and has no dependency on another writing skill.

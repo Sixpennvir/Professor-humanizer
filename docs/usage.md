@@ -5,7 +5,7 @@
 From the project where the skill should apply:
 
 ```bash
-git clone https://github.com/Sixpennvir/better-ai-writer.git .agents/skills/better-ai-writer
+git clone https://github.com/Sixpennvir/professor-humanizer.git .agents/skills/professor-humanizer
 ```
 
 Cloning the public repository requires no GitHub login. If the destination already exists, inspect it before installing another copy.
@@ -14,24 +14,35 @@ Codex's [official local skills guide](https://learn.chatgpt.com/docs/build-skill
 
 ## Manual ZIP installation
 
-Download [better-ai-writer-v0.2.0.zip](https://github.com/Sixpennvir/better-ai-writer/releases/download/v0.2.0/better-ai-writer-v0.2.0.zip) from the [release page](https://github.com/Sixpennvir/better-ai-writer/releases/tag/v0.2.0). The accompanying `.sha256` file contains the archive's SHA-256 checksum. Extract the `better-ai-writer/` folder into `.agents/skills/` in your working project. Confirm that `.agents/skills/better-ai-writer/SKILL.md` exists directly at that path.
+Download [professor-humanizer-v0.3.0.zip](https://github.com/Sixpennvir/professor-humanizer/releases/download/v0.3.0/professor-humanizer-v0.3.0.zip) from the [release page](https://github.com/Sixpennvir/professor-humanizer/releases/tag/v0.3.0). The accompanying `.sha256` file contains the archive's SHA-256 checksum. Extract the `professor-humanizer/` folder into `.agents/skills/` in your working project. Confirm that `.agents/skills/professor-humanizer/SKILL.md` exists directly at that path.
 
 For personal installation, place the same folder under your home directory's `.agents/skills/`. Do not install duplicate copies at several scopes unless you intend to manage them separately.
 
-Invoke `$better-ai-writer` in a Codex request. If discovery does not refresh, restart the host. Other Agent Skills hosts may use different installation paths; consult their documentation. The project has not completed cross-host compatibility testing.
+Invoke `$professor-humanizer` in a Codex request. If discovery does not refresh, restart the host. Other Agent Skills hosts may use different installation paths; consult their documentation. The project has not completed cross-host compatibility testing.
 
 ## Update a clone
 
 ```bash
-git -C .agents/skills/better-ai-writer pull --ff-only
+git -C .agents/skills/professor-humanizer pull --ff-only
 ```
 
 This preserves a clear failure when local edits and upstream history diverge. Inspect any local changes before resolving that conflict. ZIP installations require replacing the skill files deliberately; keep any edits you want to retain.
 
+## Existing Better AI Writer installations
+
+Update an existing clone before changing its folder name:
+
+```bash
+git -C .agents/skills/better-ai-writer remote set-url origin https://github.com/Sixpennvir/professor-humanizer.git
+git -C .agents/skills/better-ai-writer pull --ff-only
+```
+
+Inspect local edits before updating. After a successful update, rename that installed folder to `professor-humanizer` and invoke `$professor-humanizer`. Apply the same steps to a personal installation at its actual path. Keep one active installation at the intended scope. The recorded v0.2.0 model test retains the project name and prompt used for that run.
+
 ## Revision
 
 ```text
-Use $better-ai-writer to revise this English passage.
+Use $professor-humanizer to revise this English passage.
 The reader already knows the assigned text.
 Keep my argument and all quotations.
 Use only the draft and supplied passage.
@@ -46,7 +57,7 @@ The source passage supplies evidence; the draft supplies your interpretation. If
 ## Drafting from supplied material
 
 ```text
-Use $better-ai-writer to draft an email from these notes.
+Use $professor-humanizer to draft an email from these notes.
 Recipient: Rosa.
 Request: send the agenda by Thursday noon.
 Reason: I need to check it before Friday's meeting.
@@ -59,7 +70,7 @@ Drafting permits selection and organization of the supplied facts. It does not p
 ## Diagnosis without rewriting
 
 ```text
-Use $better-ai-writer to diagnose this English draft.
+Use $professor-humanizer to diagnose this English draft.
 Identify where the reader loses the argument.
 For each finding, quote the passage, name the rule, and propose a repair.
 Do not rewrite the complete draft or modify files.
