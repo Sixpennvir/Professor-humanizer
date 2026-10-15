@@ -1,8 +1,10 @@
 # Better AI Writer
 
-**Revise English prose without losing the argument.**
+**Long-form English writing with the author's reasoning intact.**
 
-Better AI Writer is an instruction-only writing skill built around close reading and careful revision. It helps an agent connect evidence to claims, give each paragraph a purpose, and remove formulaic phrasing while preserving the writer's position.
+Better AI Writer focuses on long-form English writing. It guides drafting and revision at the level of the whole argument, tracking how each paragraph develops the author's reasoning and how later claims depend on earlier evidence. Its rules prioritize readability while preserving intellectual depth and the writer's own position.
+
+Natural expression should emerge from precise language and coherent development. The skill rejects deliberate mistakes and artificial simplification as ways to make AI output seem human. It requires revisions to preserve necessary complexity, including qualifications and distinctions that carry the argument.
 
 [Examples](references/examples.md) · [Install](docs/usage.md) · [Writing rules](references/rules.md) · [Pattern catalogue](references/patterns.md) · [Evaluation](tests/README.md)
 
@@ -100,4 +102,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the example contract and review proce
 
 ## 中文说明
 
-这是面向英文写作的严格修订 skill。它关注证据、论证和段落推进，保留事实、引文、限定条件及作者立场。首页和示例库中的每组修改都展示完整输入，避免通过未展示的材料制造改写效果。目前仓库保持私有预览；自动检查与实际模型评测分别记录。
+这是以英文长文本写作为重点的严格修订 skill。它关注整篇文章的论证逻辑和跨段落衔接，保留作者立场及必要的思想复杂度。可读性应来自准确表达与连贯论证；规则明确反对为了显得像真人写作而刻意制造错误、削弱论证或将内容简单化。首页和示例库中的每组修改都展示完整输入，避免通过未展示的材料制造改写效果。目前仓库保持私有预览；自动检查与实际模型评测分别记录。
