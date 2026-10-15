@@ -8,11 +8,11 @@ The skill rejects deliberate errors or degraded prose as shortcuts to a human vo
 
 [Examples](references/examples.md) · [Install](docs/usage.md) · [Writing rules](references/rules.md) · [Pattern catalogue](references/patterns.md) · [Evaluation](tests/README.md)
 
-> **Private preview · 0.2.0** — Repository access currently requires permission. No public release has been published.
+> **Private preview · 0.2.0** — Repository access currently requires permission. The project has no public release.
 
 ## See the revision
 
-The following teaching example uses a fictional passage. Everything needed for the revision appears in the draft. These are authored demonstrations, not results from an independent model benchmark.
+The following teaching example uses a fictional passage. Everything needed for the revision appears in the draft. These authored examples illustrate the intended edits. Independent model evaluation remains pending.
 
 <!-- showcase:start -->
 **Before**
@@ -27,10 +27,10 @@ The following teaching example uses a fictional passage. Everything needed for t
 >
 > The passage offers no independent account of where the door opened. That absence leaves the memory's accuracy unresolved: the narrator's confidence alone cannot establish whether the description matches the room.
 
-**What changed:** The first paragraph connects a precise word change to the reader's reason for revising trust. The second develops the evidentiary limit instead of repeating that memory is complex. The revision preserves the argument's scope while removing rhetorical staging.
+**What changed:** The first paragraph connects a precise word change to the reader's reason for revising trust. The second develops the evidentiary limit and removes the repeated claim that memory is complex. The revision preserves the argument's scope while removing rhetorical staging.
 <!-- showcase:end -->
 
-[Explore seven complete examples](references/examples.md), including research summaries, conditional requests, authorial disagreement, protected quotations, narrative, and prose that needs no change.
+[Read a complete long-form revision](references/long-form-example.md) to inspect the argument across paragraphs. [Explore seven shorter examples](references/examples.md), including research summaries, conditional requests, authorial disagreement, protected quotations, narrative, and prose that needs no change.
 
 ## What the skill works on
 
@@ -46,9 +46,9 @@ A shorter text can still lose the argument. This skill checks what survives each
 
 ## The strict profile
 
-Finished English prose uses connected paragraphs, without subheadings or lists. Negative redefinition such as “not X but Y,” additive upgrades, rhetorical parallelism and question-led exposition are excluded. The [22-pattern catalogue](references/patterns.md) also covers unsupported significance, repeated sentence structures and paragraph loops.
+Finished English prose uses connected paragraphs, without subheadings or lists. The strict profile excludes negative redefinition such as “not X but Y,” additive upgrades, rhetorical parallelism and question-led exposition. The [22-pattern catalogue](references/patterns.md) also covers unsupported significance, repeated sentence structures and paragraph loops.
 
-The verb exercise attempts to remove original “to be” forms through faithful recasting. Exact quotations retain their source wording. If meaning and a mandatory style rule cannot coexist, the agent identifies the conflict instead of silently changing the claim.
+The verb exercise attempts to remove original “to be” forms through faithful recasting. Exact quotations retain their source wording. If meaning and a mandatory style rule cannot coexist, the agent identifies the conflict and preserves the claim.
 
 These restrictions express the project's chosen style. They apply across scenarios. Ordinary grammar falls under the catalogue's specific boundaries; the project does not blacklist every participle, conjunction or technical term. Documentation and requested diagnostic reports may use headings and tables.
 
@@ -71,7 +71,7 @@ Use only the material supplied here. Return the revised prose.
 [Paste the complete draft and any source material.]
 ```
 
-For ZIP installation, personal installation, updating, diagnosis and drafting, see the [usage guide](docs/usage.md). The installed skill requires no Python runtime, API key, or connection to another writing skill. Other Agent Skills hosts may use different discovery paths; compatibility has not been tested.
+For ZIP installation, personal installation, updating, diagnosis and drafting, see the [usage guide](docs/usage.md). The installed skill requires no Python runtime, API key, or connection to another writing skill. Other Agent Skills hosts may use different discovery paths; cross-host testing remains pending.
 
 ## Academic roots, broader use
 
@@ -96,10 +96,6 @@ The README example and detailed gallery come from the same data. Checks catch do
 
 ## Contribute
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for the example contract and review process. Maintainer commands and packaging details live in [development](docs/development.md). Changes can be reviewed through pull requests before integration.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the example contract and review process. Maintainer commands and packaging details live in [development](docs/development.md). The current preview uses direct maintainer updates after review and verification.
 
 [MIT license](LICENSE). The instructional foundation comes from user-supplied course guidance. Better AI Writer contains independently authored instructions and examples and has no dependency on another writing skill.
-
-## 中文说明
-
-这是以英文长文本写作为重点的严格修订 skill。它关注整篇文章的论证逻辑和跨段落衔接，保留作者立场及必要的思想复杂度。可读性应来自准确表达与连贯论证；规则明确反对为了显得像真人写作而刻意制造错误、削弱论证或将内容简单化。首页和示例库中的每组修改都展示完整输入，避免通过未展示的材料制造改写效果。目前仓库保持私有预览；自动检查与实际模型评测分别记录。

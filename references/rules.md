@@ -8,15 +8,15 @@ Identify what this text must accomplish and what its reader already knows. Selec
 
 ## R02 — Bound the evidence
 
-Use only materials supplied by the user for factual claims. Do not browse to enrich a writing assignment. Research linked in this skill explains its design and supplies no subject-matter evidence for the user's text. Ask for missing material that controls the argument. You may remove an unsupported claim when removal preserves the requested meaning; otherwise flag the gap. Never invent page numbers, quotations, statistics, motives, events, or experience. Keep interpretation visibly distinct from source fact. Preserving a supplied assertion does not independently verify it. If the draft conflicts with supplied evidence, identify the conflict. Do not convert an attributed allegation into your own factual claim.
+Use only materials supplied by the user for factual claims. Do not browse to enrich a writing assignment. Research linked in this skill explains its design and supplies no subject-matter evidence for the user's text. Ask for missing material that controls the argument. You may remove an unsupported claim when removal preserves the requested meaning; otherwise flag the gap. Never invent page numbers, quotations, statistics, motives, events, or experience. Keep interpretation visibly distinct from source fact. A missing warrant does not by itself make a supplied observation or judgment disposable. Preserving a supplied assertion does not independently verify it. If the draft conflicts with supplied evidence, identify the conflict. Do not convert an attributed allegation into your own factual claim.
 
 ## R03 — Preserve meaning and ownership
 
-Keep the author's position and intended degree of commitment. Preserve numbers, comparisons, exceptions, deadlines, conditions, modality, and attribution. Repair unambiguous expression directly. Clarify any proposed change to a fact, commitment, position, key qualification, or ambiguous intent. Personal voice comes from chosen details and judgments, not invented autobiography or casual filler. Use first person strategically to identify an actual interpretive move or a remaining problem. A voice sample contributes compatible expression, never its events or opinions. Distinguish empty praise from a substantive judgment; deleting an author's position requires the same care as changing it.
+Keep the author's position and intended degree of commitment. Preserve numbers, comparisons, exceptions, deadlines, conditions, modality, and attribution. Repair unambiguous expression directly. Clarify any proposed change to a fact, commitment, position, key qualification, or ambiguous intent. Develop personal voice through the writer's chosen details and judgments. Never invent autobiography or add casual filler. Use first person strategically to identify an actual interpretive move or a remaining problem. A voice sample contributes compatible expression, never its events or opinions. Distinguish empty praise from a substantive judgment; deleting an author's position requires the same care as changing it.
 
 ## R04 — Make analysis earn its place
 
-Move from a specific detail to an explicit inference and its warrant. Explain how diction, syntax, narrative perspective, pacing, or another supplied feature affects the passage's argument. Do not merely repeat the passage or say that a word demonstrates its own topic. A proposed interpretation must withstand the surrounding text. When support runs out, narrow the claim or identify the missing premise.
+Move from a specific detail to an explicit inference and its warrant. Explain how diction, syntax, narrative perspective, pacing, or another supplied feature affects the passage's argument. Do not merely repeat the passage or say that a word demonstrates its own topic. A proposed interpretation must withstand the surrounding text. When support runs out, identify the missing premise. Narrow the claim only if that change preserves the author's position and commitment under R03; otherwise request clarification.
 
 ## R05 — Read concepts in context
 
@@ -42,13 +42,13 @@ End where the paragraph's reasoning reaches a useful result, a precise qualifica
 
 Attempt to recast all original occurrences of be, am, is, are, was, were, being, and been, including contractions where they express those forms. Inspect passive auxiliaries as well as copulas. Do not change a passive to an active construction by inventing an actor. Protect quoted text, official names, code, and required technical expressions.
 
-Identify the action or relationship before selecting a replacement. Inspect empty uses of “have” and nominalized phrases, but retain factual possession and grammatically necessary auxiliaries. Avoid decorative verbs that change the proposition. If a faithful recasting proves unavailable, state the conflict rather than silently retaining or distorting it.
+Identify the action or relationship before selecting a replacement. Inspect empty uses of “have” and nominalized phrases, but retain factual possession and grammatically necessary auxiliaries. Avoid decorative verbs that change the proposition. If a faithful recasting proves unavailable, state the conflict. Do not silently retain the prohibited form or distort its meaning.
 
 Build a small candidate verb bank before drafting when repetition seems likely. Classify candidates by meaning and evidentiary strength. “Suggest,” “demonstrate,” and “prove” cannot substitute freely. Keep an exact repeated term when the alternatives alter meaning; revise the surrounding syntax.
 
 ## R11 — Exclude formulaic constructions
 
-Apply P01–P22 to semantic function and syntax, not just exact strings. Split-sentence and inverted variants count. Never add forced asymmetry, errors, slang, or invented quirks to disguise a template. Do not impose unrelated bans on every passive, hedge, long sentence, participle, conjunction, or punctuation mark.
+Apply P01–P22 to semantic function and syntax, including split-sentence and inverted variants. Never add forced asymmetry, errors, slang, or invented quirks to disguise a template. Do not impose unrelated bans on every passive, hedge, long sentence, participle, conjunction, or punctuation mark.
 
 ## R12 — Calibrate certainty
 

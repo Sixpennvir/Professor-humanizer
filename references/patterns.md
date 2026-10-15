@@ -1,6 +1,6 @@
 # Prohibited pattern catalogue
 
-Apply every entry to original English prose. Examples illustrate disallowed uses; they are not model output to imitate. A pattern is an editorial constraint, never proof of AI authorship. Read the conditions before flagging an isolated word. Protected quotations follow R15. Research support and policy choices appear in [evidence](evidence.md).
+Apply every entry to original English prose. The examples illustrate prohibited uses. Do not imitate their disallowed wording. Each pattern defines an editorial constraint and supplies no proof of AI authorship. Read the conditions before flagging an isolated word. Protected quotations follow R15. Research support and policy choices appear in [evidence](evidence.md).
 
 ## Find a pattern
 
@@ -12,7 +12,7 @@ Apply every entry to original English prose. Examples illustrate disallowed uses
 | Narration and closure imposed on the material | P16–P20 |
 | Repetition across sentences or paragraphs | P21–P22 |
 
-Each worked pair below supplies its complete draft. A clarification example is not finished prose and may ask a real question. The original terse disallowed example isolates the trigger; the worked pair demonstrates a faithful repair with enough context.
+Each worked example uses an authored fictional draft. The brief disallowed example isolates the trigger. A revised passage demonstrates a faithful repair; a response outside the deliverable identifies a consequential ambiguity and may ask a real clarification question. Before deleting any evaluation, apply R02–R03 to distinguish empty framing from the author's substantive judgment.
 
 ## P01 — Negative redefinition
 
@@ -26,9 +26,9 @@ Each worked pair below supplies its complete draft. A clarification example is n
 
 **Worked draft:** The delay is not a failure; it is an opportunity. The team will use the extra day to check the calculations.
 
-**Revised prose:** The team will use the extra day to check the calculations.
+**Response outside the deliverable:** Does “failure” refer to a missed requirement, or express your assessment of the delay? The planned check supports a use for the extra day. I need the intended meaning of “failure” to recast the judgment faithfully.
 
-**Preservation check:** The extra day and planned check survive; the evaluative relabeling contributes no independent detail.
+**Preservation check:** The draft rejects a judgment of failure and evaluates the delay as an opportunity. Removing both judgments would change the writer's position. Clarification precedes a completed rewrite; the extra day and planned check remain required content.
 
 ## P02 — Negative additive upgrade
 
@@ -58,9 +58,9 @@ Each worked pair below supplies its complete draft. A clarification example is n
 
 **Worked draft:** The scanner checks each page. The scanner then records each page number. The scanner flags each unreadable page.
 
-**Revised prose:** For each page, the scanner records its number after checking it. It flags any page it cannot read.
+**Revised prose:** The scanner checks each page before recording the page numbers. It flags any page it cannot read.
 
-**Preservation check:** All three distinct functions survive through causal ordering and a separate condition, without a mirrored sequence.
+**Preservation check:** All three distinct functions survive through the stated sequence and a separate condition, without a mirrored sequence.
 
 ## P04 — Question-led exposition
 
@@ -102,13 +102,13 @@ Each worked pair below supplies its complete draft. A clarification example is n
 
 **Repair:** Address the evidenced limitation directly. Attribute actual objections when supplied.
 
-**Boundary:** A supplied person's actual objection may be analyzed accurately.
+**Boundary:** Analyze a supplied person's actual objection accurately.
 
 **Worked draft:** You might be wondering whether the count includes duplicates. The count excludes duplicate entries.
 
 **Revised prose:** The count excludes duplicate entries.
 
-**Preservation check:** No imaginary reader needs to be introduced.
+**Preservation check:** The revision invents no reader or objection.
 
 ## P07 — Evaluative participial rider
 
@@ -116,7 +116,7 @@ Each worked pair below supplies its complete draft. A clarification example is n
 
 **Disallowed example:** “The number rose, highlighting the profound complexity of the issue.”
 
-**Repair:** Supply the warrant or remove the evaluation.
+**Repair:** Supply the warrant from the provided material. Remove empty evaluation only when the deletion preserves meaning under R03; flag missing support for a substantive judgment.
 
 **Boundary:** A participial clause describing a supplied action or consequence may remain.
 
@@ -156,7 +156,7 @@ Each worked pair below supplies its complete draft. A clarification example is n
 
 **Revised prose:** The team examined the forms and removed duplicate fields.
 
-**Preservation check:** The known actor takes the actual actions; no result is invented.
+**Preservation check:** The known actor takes the supplied actions. The revision invents no result.
 
 ## P10 — Subject-that inference shortcut
 
@@ -172,7 +172,7 @@ Each worked pair below supplies its complete draft. A clarification example is n
 
 **Response outside the deliverable:** The draft treats the return as proof of resilience. What supplied evidence supports that judgment?
 
-**Preservation check:** This is a clarification outside the deliverable. A consequential character judgment cannot be replaced with invented motivation.
+**Preservation check:** The clarification sits outside the deliverable. Do not replace a consequential character judgment with invented motivation.
 
 ## P11 — With/as descriptive tagging
 
@@ -180,15 +180,15 @@ Each worked pair below supplies its complete draft. A clarification example is n
 
 **Disallowed example:** “She entered, with hope in her heart, as the world shifted.”
 
-**Repair:** Describe the supplied event or emotion where the evidence supports it; remove decorative attachment.
+**Repair:** Recast supplied events and emotions faithfully. Remove decorative attachment only when it carries no substantive observation. Clarify the source status of ambiguous atmosphere or implied causality.
 
 **Boundary:** Factual accompaniment, timing, and causal relations may use with/as when accurate.
 
 **Worked draft:** With concern filling the room, the panel postponed its vote, as the future hung in the balance. The minutes record the postponement and give no reason.
 
-**Revised prose:** The minutes record that the panel postponed its vote; they give no reason.
+**Response outside the deliverable:** Should the description of concern count as a supplied observation, and what consequence does “the future hung in the balance” describe? The minutes record the postponement and omit its reason; that omission does not establish whether anyone expressed concern.
 
-**Preservation check:** The unsupported atmosphere disappears. The documented action and absent explanation remain.
+**Preservation check:** The response preserves the distinction between the draft's observations and the minutes' contents. It requests the information needed for a faithful recast without silently deleting the concern or inventing the stakes.
 
 ## P12 — Vague authority
 
@@ -204,7 +204,7 @@ Each worked pair below supplies its complete draft. A clarification example is n
 
 **Response outside the deliverable:** Which supplied source supports the claim of expert agreement and relapse prevention?
 
-**Preservation check:** Do not turn unsupported attribution into an unattributed medical assertion. No final rewrite is claimed.
+**Preservation check:** Do not turn unsupported attribution into an unattributed medical assertion. The response does not claim a completed rewrite.
 
 ## P13 — Generic research gap
 
@@ -310,7 +310,7 @@ Each worked pair below supplies its complete draft. A clarification example is n
 
 **Repair:** End at the actual result, condition, or unresolved issue.
 
-**Boundary:** A supported positive outcome may be stated at its true scope.
+**Boundary:** State a supported positive outcome at its true scope.
 
 **Worked draft:** The clinic postponed the appointment. A brighter future now awaits.
 
@@ -340,15 +340,15 @@ Each worked pair below supplies its complete draft. A clarification example is n
 
 **Disallowed example:** “X reveals the complexity of Y” repeated with underscores/highlights/demonstrates.
 
-**Repair:** Compare sentence functions as well as wording. Merge duplicates or develop a genuinely different inference.
+**Repair:** Compare sentence functions as well as wording. Merge duplicates or develop a distinct inference supported by the supplied material.
 
 **Boundary:** A repeated technical term alone does not establish a template.
 
 **Worked draft:** The first interview lasted 30 minutes, revealing the depth of the discussion. The second interview lasted 45 minutes, highlighting the depth of the discussion.
 
-**Revised prose:** The first interview lasted 30 minutes. The second took 45 minutes.
+**Response outside the deliverable:** What in the supplied interviews supports the judgment about depth? The durations alone do not establish it. I can retain both durations, but need that support to explain the judgment without repeating the same unsupported inference.
 
-**Preservation check:** Durations survive; repeated evaluative frames add no supplied information about depth.
+**Preservation check:** The repeated judgment may carry the author's position. Clarification preserves that possibility and avoids treating a stylistic violation as permission to delete substantive evaluation.
 
 ## P22 — Paragraph function loop
 
@@ -360,7 +360,11 @@ Each worked pair below supplies its complete draft. A clarification example is n
 
 **Boundary:** A deliberate recap may remain only when a reader needs it to follow a new consequential step.
 
-**Worked draft:** The review took two days. This shows how long the review lasted. / The process required two days. Overall, the review lasted two days.
+**Worked draft:**
+
+> The review took two days. This shows how long the review lasted.
+>
+> The process required two days. Overall, the review lasted two days.
 
 **Revised prose:** The review took two days.
 

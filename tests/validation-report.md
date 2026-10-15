@@ -1,32 +1,28 @@
 # Validation report
 
-Date: 2026-10-14. Revision: 0.2.0 private preview. Local platform: Windows, Python 3.12.13.
+Date: 2026-10-14. Version: 0.2.0 private preview. Local tooling: Windows, Python 3.12.13.
 
-## Executed local checks
+## Executed tooling checks
 
-| Check | Result | What it establishes |
+| Check | Result | Scope |
 | --- | --- | --- |
-| Showcase generation and consistency | Passed | README and gallery match the authored example source |
-| Repository validation | Passed | Required files, links, IDs, metadata and example anchors satisfy structural checks |
-| Python regression suite | 19 passed | Deliberately malformed fixtures trigger the expected tooling behavior |
-| Skill-creator format validation | Passed with UTF-8 mode | Skill metadata and format satisfy that check |
-| Skill ZIP generation | Passed | Versioned allowlisted archive and checksum were generated |
+| Showcase consistency | Passed | README and gallery match the authored example source |
+| Repository validation | Passed | Required files, links, IDs, metadata and selected example anchors |
+| Python regression suite | 19 passed | Malformed fixtures, protected anchors, packaging exclusions and reproducibility |
+| Skill-creator format validation | Passed with UTF-8 mode | Skill metadata and entrypoint format |
+| Skill ZIP generation | Passed | Versioned archive and SHA-256 companion file |
 | Extracted package validation | Passed within the regression suite | Runtime references remain available without development files |
 
-The first updated validator run stopped on a Python syntax error introduced during editing. The error was corrected before the successful run above. No failed run has been counted as a pass.
+The archive includes the long-form teaching example. A passing structural check cannot establish semantic fidelity or writing quality.
 
-## Editorial inspection
+## Long-form smoke check
 
-The implementing assistant compared the seven authored before/after pairs. This was an unblinded author review, not an independent experiment. It caught an invalid change from participant enrollment to task completion; the corrected example retains enrollment. The pattern repair review also retained the archive's preservation function and removed an example that could encourage dropping a substantive consensus claim.
+A fresh-context Codex subagent revised the complete 933-word fictional draft without access to the authored revision or expected invariants. The [actual input and output](runs/long-form-smoke.json) record this run. The implementing assistant compared the response against the draft and the skill; the recorded checks passed for this response.
 
-## Evidence not collected
+The response preserves the methodological judgment, exact quotations and technical distinctions. It retains the practical objection and the conditional ending while removing non-adjacent repetition. The authored teaching revision remains a separate artifact.
 
-- No community survey, user interviews or user study.
-- No independent model outputs for the 32 behavioral prompts.
-- No cross-host compatibility trial or controlled improvement estimate.
+This single check has no baseline or repeated sampling. The reviewer participated in developing the skill. The host did not expose the executing model identifier or generation settings, which limits reproducibility. The run supplies no comparative improvement estimate.
 
-The examples demonstrate intended editing decisions. Automatic checks cannot certify semantic fidelity; a regression test explicitly shows an inference error that literal-anchor checks cannot detect.
+## Remaining evaluation
 
-## Earlier preview
-
-The 0.1.0 GitHub Actions run [completed successfully](https://github.com/Sixpennvir/better-ai-writer/actions/runs/38655547336). Its result applies to that earlier commit. The 0.2.0 remote checks must be read from their own run.
+The full 36-case behavioral suite remains unexecuted. The project has conducted no community survey, user study or cross-host comparison. No detector score or word-count reduction serves as evidence of quality.

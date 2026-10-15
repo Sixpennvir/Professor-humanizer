@@ -3,7 +3,7 @@
     "id": "close-reading",
     "title": "Close reading: make the inference visible",
     "task": "Revise a two-paragraph interpretation for a reader who knows the passage. Preserve the interpretation and its limit.",
-    "provenance": "Original teaching example. The fictional passage and page references appear entirely in the draft. No real author or work is implied.",
+    "provenance": "Original teaching example. The fictional passage and page references appear entirely in the draft. They refer to no real author or work.",
     "before": "The narrator's description is not merely a recollection of a room; it is a profound exploration of memory's complexity. She first claims, “I remember the room exactly” (4). Later she writes, “Perhaps the door opened onto the garden” (4). Why is this significant? The movement from “exactly” to “Perhaps” changes the certainty of the description. It is a movement from confidence to hesitation, highlighting the complex nature of remembering.\n\nThe passage is important because the opening assurance encourages the reader to trust the description, while the later qualification gives the reader a reason to reconsider that trust. This shows that certainty in telling a memory cannot establish the accuracy of the memory. Yet the passage gives no independent account of where the door actually opened. It therefore leaves the description's accuracy unresolved. Ultimately, this uncertainty underscores the complexity of memory.",
     "after": "The narrator qualifies her initial confidence. She first claims, “I remember the room exactly” (4). Later, “Perhaps the door opened onto the garden” (4) makes one detail tentative. The shift from “exactly” to “Perhaps” gives the reader a specific reason to reconsider the opening assurance.\n\nThe passage offers no independent account of where the door opened. That absence leaves the memory's accuracy unresolved: the narrator's confidence alone cannot establish whether the description matches the room.",
     "protected": [
@@ -14,11 +14,11 @@
     "checks": [
       "Both quotations and page references survive exactly.",
       "The shift in certainty grounds the reading; no motive or additional scene appears.",
-      "The final limit concerns independent confirmation, not a new general theory of memory."
+      "The final limit concerns independent confirmation. No new general theory of memory enters the revision."
     ],
     "changes": [
       "The first paragraph connects a precise word change to the reader's reason for revising trust.",
-      "The second develops the evidentiary limit instead of repeating that memory is complex.",
+      "The second develops the evidentiary limit and removes the repeated claim that memory is complex.",
       "The revision preserves the argument's scope while removing rhetorical staging."
     ],
     "rules": [
@@ -45,8 +45,8 @@
     ],
     "checks": [
       "Sample size and both times survive.",
-      "Absence of a comparison group and significance test survives.",
-      "No causal or statistical conclusion has been added."
+      "The lack of a comparison group and the absence of a reported significance test survive.",
+      "The revision adds no causal or statistical conclusion."
     ],
     "changes": [
       "The numerical result leads directly to the design limitation.",
@@ -97,18 +97,22 @@
     "task": "Revise an opinion paragraph while retaining the writer's position and reason.",
     "provenance": "Original fictional opinion; the draft provides the writer's observation and position.",
     "before": "I believe that the proposal is deeply frustrating. At its core, what really matters is that the proposal moves the deadline forward by two weeks but leaves the approval process unchanged. I oppose that change because it gives reviewers less time without removing any required review. This is not progress; it is pressure.",
-    "after": "I find the proposal frustrating. It moves the deadline forward by two weeks while leaving the approval process unchanged. I oppose the change because reviewers would have less time for the same required review.",
+    "after": "I find the proposal deeply frustrating. Moving the deadline forward by two weeks leaves the approval process unchanged and increases the pressure on reviewers. I oppose the change because it gives reviewers less time for the same required review. Under those conditions, I see no progress in the proposal.",
     "protected": [
-      "two weeks"
+      "two weeks",
+      "deeply frustrating",
+      "I oppose",
+      "gives reviewers less time"
     ],
     "checks": [
-      "The opposition and frustration remain attributable to the writer.",
+      "The writer retains the intensity of frustration and the stated opposition.",
       "The deadline shift and unchanged approval process survive.",
-      "No neutral compromise replaces the stated position."
+      "The added pressure and negative judgment about progress survive.",
+      "The asserted consequence retains its original certainty."
     ],
     "changes": [
-      "The actual reason supports the judgment.",
-      "The closing slogan disappears without erasing the opposition."
+      "The concrete scheduling reason supports the judgment.",
+      "The rewrite preserves the writer's assessment of pressure and lack of progress while removing the corrective slogan."
     ],
     "rules": [
       "R03",
@@ -136,7 +140,7 @@
     ],
     "changes": [
       "Interpretation begins at the metaphor's specific function.",
-      "The source quotation remains intact even though its construction is banned in original prose."
+      "The exact source quotation retains the construction prohibited in original prose."
     ],
     "rules": [
       "R04",
@@ -161,12 +165,12 @@
     ],
     "checks": [
       "The missed bus, walk, wet shoes, shoe placement and bedtime survive.",
-      "No weather or emotional state has been added.",
+      "The revision adds no weather or emotional state.",
       "The event sequence survives without an explanatory moral."
     ],
     "changes": [
       "The scene ends at the final supplied action.",
-      "A factual action sequence remains; rhetorical parallelism has not been introduced."
+      "The factual action sequence carries the scene without rhetorical parallelism."
     ],
     "rules": [
       "R02",

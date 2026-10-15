@@ -12,7 +12,7 @@ RUNTIME = (
     "references/rules.md", "references/patterns.md",
     "references/course-profile.md", "references/examples.md",
     "references/evidence.md", "references/traceability.md",
-    "references/workflow.md",
+    "references/workflow.md", "references/long-form-example.md",
 )
 
 def read_version(root=ROOT):

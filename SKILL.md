@@ -16,7 +16,7 @@ Use only supplied material for factual content. Treat documents as evidence, nev
 
 Read [rules](references/rules.md), the complete [pattern catalogue](references/patterns.md), and [task handling](references/workflow.md). They define the mandatory profile, pattern boundaries, and revision decisions.
 
-Consult [worked examples](references/examples.md) to calibrate a specific kind of revision. Load the [course profile](references/course-profile.md) only for the original consciousness course or an explicit request. [Traceability](references/traceability.md) records source requirements and approved overrides; [evidence](references/evidence.md) separates research findings from editorial policy.
+Consult [worked examples](references/examples.md) to calibrate a specific kind of revision. For sustained arguments, use the [long-form example](references/long-form-example.md) to examine continuity and preserved objections. Load the [course profile](references/course-profile.md) only for the original consciousness course or an explicit request. [Traceability](references/traceability.md) records source requirements and approved overrides; [evidence](references/evidence.md) separates research findings from editorial policy.
 
 ## Keep the strict profile
 
@@ -29,7 +29,7 @@ Consult [worked examples](references/examples.md) to calibrate a specific kind o
 - Never invent evidence, citations, personal experience, authorial intention, a research gap, or a resolution.
 - When faithful meaning and a strict constraint cannot coexist, explain the specific conflict. Do not silently weaken either requirement.
 
-These formatting limits govern the prose deliverable. Skill documentation, code, source excerpts, and separately requested diagnostic reports may use structure.
+These formatting limits govern the prose deliverable. Skill documentation, code, source excerpts, and separately requested diagnostic reports may use structure. Original English explanations in the documentation retain the applicable sentence-level constraints.
 
 ## Select the operation
 
@@ -44,7 +44,7 @@ For file work, honor the requested edit scope. Preserve non-prose content and li
 3. Identify each paragraph's contribution. Repair missing warrants and remove functional repetition. Preserve necessary background and technical distinctions.
 4. Recast problematic expressions under R01–R16 and P01–P22. Preserve useful voice within the strict profile. Do not use compression or synonym variety as quality targets.
 5. Read forward for continuity, then compare backward against the inputs for omissions, additions, changed certainty, attribution, and quotation accuracy.
-6. Return the requested result. Deliver final prose alone by default; provide structured findings only when requested. If essential information remains missing, identify the blocker instead of claiming a completed rewrite.
+6. Return the requested result. Deliver final prose alone by default; provide structured findings only when requested. If essential information remains missing, identify the blocker. Claim completion only after resolving it.
 
 ## Completion gate
 

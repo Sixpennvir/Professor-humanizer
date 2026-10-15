@@ -1,6 +1,6 @@
 # Source traceability and rule precedence
 
-The foundation consists of four user-supplied teaching screenshots. Their images, linked pages, and example essay are not distributed here. The operational requirements below preserve their content in paraphrase. No screenshot URL was visited. The research literature supplements pattern analysis; it cannot silently override a source requirement or a later user decision.
+The foundation consists of four user-supplied teaching screenshots. The repository excludes their images, linked pages, and example essay. The operational requirements below preserve their content in paraphrase. The project did not visit any screenshot URL. The research literature supplements pattern analysis; it cannot silently override a source requirement or a later user decision.
 
 ## Screenshot coverage
 
@@ -20,7 +20,7 @@ The foundation consists of four user-supplied teaching screenshots. Their images
 | Focus current passage; Build 2/3/5 extensions | C07 |
 | Draft/revision timing and understanding problems | C13 |
 | No outside course sources without professor; attribution | C12, R02, R15 |
-| Strategic first person, not casualness alone | C08, R03 |
+| Strategic first person; casualness alone remains insufficient | C08, R03 |
 | Remove headings/lists and build transitions | C09, R08 |
 | Introduce sections through questions | Later user override: P04, R08 |
 | Diagnose confusion/boredom; clarify specific difficult prose; avoid ornate polish | C09, R14 |
@@ -50,7 +50,7 @@ The foundation consists of four user-supplied teaching screenshots. Their images
 | No negative contrasts/additive escalation | P01–P02 |
 | No parallel constructions, rhetorical triads, or question-led writing | P03–P04 supersede original optional devices |
 | Necessary exact quotations exempt | R15; never create exemptions by fabricating quotes |
-| Grammar findings target problematic uses, not all words or constructions | P07–P11 boundaries |
+| Grammar findings target the specified problematic uses | P07–P11 boundaries |
 | User-supplied facts only | R02; research references never become task evidence |
 | Criticism allowed outside original course after fair reconstruction | R06; C06 remains course-specific |
 | Endings adapt to task | R13; course C05 remains exploratory |
@@ -62,6 +62,6 @@ The foundation consists of four user-supplied teaching screenshots. Their images
 
 Apply the task's explicit instructions and host instruction hierarchy. Within this skill, the approved overrides supersede conflicting screenshot techniques. Protect exact evidence and meaning. If the user requests a new exception, identify which rule changes and limit the exception to that request; never quietly present relaxed output as fully compliant with the unchanged strict profile. A necessary clarification sits outside the finished prose and may use a genuine question.
 
-## 0.2.0 operational refinements
+## Operational scope
 
-The user requested deeper project development. This update strengthens examples and usability; it does not relax any strict writing requirement. Task routing, voice-sample boundaries, unchanged-output handling and the source-to-output review operationalize R01–R03, R07, R14 and R16. Every showcased revision now exposes its complete factual input. Every pattern has a worked repair or an explicit missing-evidence response.
+The user requested deeper project development. The workflow preserves every strict writing requirement. Task routing, voice-sample boundaries, unchanged-output handling and the source-to-output review operationalize R01–R03, R07, R14 and R16. Every showcased revision now exposes its complete factual input. Every pattern has a worked repair or an explicit missing-evidence response.

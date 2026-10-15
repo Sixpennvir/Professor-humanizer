@@ -2,7 +2,7 @@
 
 These original teaching examples expose their complete inputs. Each revision uses only the draft's factual content. The notes define the task and provenance; they add no hidden evidence.
 
-They are authored demonstrations, not independent model outputs or user-study results. Protected anchors receive mechanical checks. The editorial checks below require judgment.
+These authored demonstrations illustrate intended edits. No independent model trial or user study produced them. Protected anchors receive mechanical checks. The editorial checks below require judgment.
 
 ## Browse the examples
 
@@ -20,7 +20,7 @@ They are authored demonstrations, not independent model outputs or user-study re
 
 **Task:** Revise a two-paragraph interpretation for a reader who knows the passage. Preserve the interpretation and its limit.
 
-**Provenance:** Original teaching example. The fictional passage and page references appear entirely in the draft. No real author or work is implied.
+**Provenance:** Original teaching example. The fictional passage and page references appear entirely in the draft. They refer to no real author or work.
 
 **Before**
 
@@ -34,13 +34,13 @@ They are authored demonstrations, not independent model outputs or user-study re
 >
 > The passage offers no independent account of where the door opened. That absence leaves the memory's accuracy unresolved: the narrator's confidence alone cannot establish whether the description matches the room.
 
-**What changed:** The first paragraph connects a precise word change to the reader's reason for revising trust. The second develops the evidentiary limit instead of repeating that memory is complex. The revision preserves the argument's scope while removing rhetorical staging.
+**What changed:** The first paragraph connects a precise word change to the reader's reason for revising trust. The second develops the evidentiary limit and removes the repeated claim that memory is complex. The revision preserves the argument's scope while removing rhetorical staging.
 
 **Preservation review:**
 
 - Both quotations and page references survive exactly.
 - The shift in certainty grounds the reading; no motive or additional scene appears.
-- The final limit concerns independent confirmation, not a new general theory of memory.
+- The final limit concerns independent confirmation. No new general theory of memory enters the revision.
 
 **Rules:** R04, R07, R12, P01, P04, P07, P22.
 
@@ -65,8 +65,8 @@ They are authored demonstrations, not independent model outputs or user-study re
 **Preservation review:**
 
 - Sample size and both times survive.
-- Absence of a comparison group and significance test survives.
-- No causal or statistical conclusion has been added.
+- The lack of a comparison group and the absence of a reported significance test survive.
+- The revision adds no causal or statistical conclusion.
 
 **Rules:** R03, R12, P05, P07, P20.
 
@@ -110,15 +110,16 @@ They are authored demonstrations, not independent model outputs or user-study re
 
 **After**
 
-> I find the proposal frustrating. It moves the deadline forward by two weeks while leaving the approval process unchanged. I oppose the change because reviewers would have less time for the same required review.
+> I find the proposal deeply frustrating. Moving the deadline forward by two weeks leaves the approval process unchanged and increases the pressure on reviewers. I oppose the change because it gives reviewers less time for the same required review. Under those conditions, I see no progress in the proposal.
 
-**What changed:** The actual reason supports the judgment. The closing slogan disappears without erasing the opposition.
+**What changed:** The concrete scheduling reason supports the judgment. The rewrite preserves the writer's assessment of pressure and lack of progress while removing the corrective slogan.
 
 **Preservation review:**
 
-- The opposition and frustration remain attributable to the writer.
+- The writer retains the intensity of frustration and the stated opposition.
 - The deadline shift and unchanged approval process survive.
-- No neutral compromise replaces the stated position.
+- The added pressure and negative judgment about progress survive.
+- The asserted consequence retains its original certainty.
 
 **Rules:** R03, R06, P01, P05.
 
@@ -138,7 +139,7 @@ They are authored demonstrations, not independent model outputs or user-study re
 
 > Vale writes, “Memory is not a record but an argument” (12). The metaphor invites the reader to examine how a recollection supports a position. The sentence leaves the criteria for evaluating that position unspecified.
 
-**What changed:** Interpretation begins at the metaphor's specific function. The source quotation remains intact even though its construction is banned in original prose.
+**What changed:** Interpretation begins at the metaphor's specific function. The exact source quotation retains the construction prohibited in original prose.
 
 **Preservation review:**
 
@@ -164,12 +165,12 @@ They are authored demonstrations, not independent model outputs or user-study re
 
 > Leah missed the last bus and walked home. She reached her door with wet shoes, left them beside the radiator, and went straight to bed.
 
-**What changed:** The scene ends at the final supplied action. A factual action sequence remains; rhetorical parallelism has not been introduced.
+**What changed:** The scene ends at the final supplied action. The factual action sequence carries the scene without rhetorical parallelism.
 
 **Preservation review:**
 
 - The missed bus, walk, wet shoes, shoe placement and bedtime survive.
-- No weather or emotional state has been added.
+- The revision adds no weather or emotional state.
 - The event sequence survives without an explanatory moral.
 
 **Rules:** R02, R13, P18, P19.

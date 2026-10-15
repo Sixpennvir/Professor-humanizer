@@ -8,7 +8,7 @@ The homepage email compared a generic draft against a revision containing a reci
 
 The homepage now demonstrates close reading because academic analysis anchors the supplied brief. The examples distinguish an interpretation from its source evidence and make each paragraph's contribution visible.
 
-Each showcased revision comes from a complete draft. Notes specify the task and provenance; they supply no facts missing from the draft. Exact quotation and factual anchors are checked automatically, while interpretation and completeness require editorial review.
+Each showcased revision comes from a complete draft. Notes specify the task and provenance; they supply no facts missing from the draft. Automatic checks protect selected literal anchors for quotations and facts. Interpretation and completeness require editorial review.
 
 The strict profile remains intact. Familiar grammar remains subject to our existing use-specific boundaries. We also avoid a blanket vocabulary blacklist.
 
@@ -22,8 +22,8 @@ The skill now distinguishes revision from drafting and diagnosis. It can preserv
 - Generated documentation cannot silently drift from its example data.
 - A change to a hard rule remains visible in traceability.
 - Checks report their actual scope; no fabricated model evaluation appears.
-- GitHub preview remains private and no Release is created.
+- Keep the GitHub preview private. Creating a public Release requires the owner's instruction.
 
 ## Remaining evidence gap
 
-The examples are editorial demonstrations, not outputs from an independent model trial. The behavioral suite supports future evaluation; structural passes and shorter text cannot establish writing improvement across models.
+The examples illustrate intended editorial decisions. They do not originate from an independent model trial. The behavioral suite supports future evaluation; structural passes and shorter text cannot establish writing improvement across models.

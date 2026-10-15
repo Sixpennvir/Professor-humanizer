@@ -53,7 +53,7 @@ def render_gallery(cases):
     output = [
         "# Worked revisions",
         "These original teaching examples expose their complete inputs. Each revision uses only the draft's factual content. The notes define the task and provenance; they add no hidden evidence.",
-        "They are authored demonstrations, not independent model outputs or user-study results. Protected anchors receive mechanical checks. The editorial checks below require judgment.",
+        "These authored demonstrations illustrate intended edits. No independent model trial or user study produced them. Protected anchors receive mechanical checks. The editorial checks below require judgment.",
         "## Browse the examples",
         "\n".join(f"- [{c['title']}](#{c['id']})" for c in cases),
     ]

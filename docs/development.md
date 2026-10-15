@@ -1,6 +1,6 @@
 # Development
 
-The skill itself runs through the agent host. Python 3.10 or newer is required only for maintaining this repository. Development scripts use the standard library.
+The skill itself runs through the agent host. Repository maintenance requires Python 3.10 or newer. Development scripts use the standard library.
 
 ## Verify a change
 
@@ -21,7 +21,7 @@ Edit [showcases.json](../examples/showcases.json), then regenerate:
 python scripts/showcases.py --write
 ```
 
-This updates the gallery and only the marked example block in the README. Each pair needs a complete draft, a revision, protected literal anchors, and editorial preservation checks. All factual content in the revision must be available in the draft. A task note must not introduce facts absent from it.
+This updates the gallery and only the marked example block in the README. Each pair needs a complete draft, a revision, protected literal anchors, and editorial preservation checks. The draft must supply every fact the revision uses. A task note must not introduce facts absent from it.
 
 The anchor checks can detect a changed quotation or quantity. They cannot detect every changed causal claim, attribution, or implication. Manually compare the complete pair after generation.
 
@@ -35,7 +35,7 @@ The explicit runtime allowlist includes SKILL.md, LICENSE, UI metadata and requi
 
 ## Git workflow
 
-Use a focused branch for a substantive change and review the diff against the current default branch. Keep the problem, resulting behavior, and actual checks in the pull request description. Do not convert a private preview to a public repository or create a Release without the owner's instruction.
+For the current private preview, review the diff and complete verification before updating the default branch directly. Do not create a pull request unless the owner requests one. Do not convert a private preview to a public repository or create a Release without the owner's instruction.
 
 Do not claim a community survey, user test, model benchmark, or improvement percentage without a recorded study that actually took place. Authored examples demonstrate intended behavior. Executed tooling tests establish only their defined checks.
 

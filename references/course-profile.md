@@ -12,7 +12,7 @@ Develop a semester topic distinct from teammates' topics while close enough for 
 
 ## C03 — Retain the writer's responsibility
 
-Revise any AI draft to express the student's own interpretation. Keep only its strongest relevant material. Scrutinize a draft that seems to need no cuts. Replace unfamiliar AI terminology with accurate language the student understands. The screenshot's linked model essay has not been supplied; never pretend to have read it.
+Revise any AI draft to express the student's own interpretation. Keep only its strongest relevant material. Scrutinize a draft that seems to need no cuts. Replace unfamiliar AI terminology with accurate language the student understands. The supplied material omits the screenshot's linked model essay; never pretend to have read it.
 
 ## C04 — Analyze the passage in context
 
@@ -20,11 +20,11 @@ Ask how a specific stylistic feature contributes to the passage's content and co
 
 ## C05 — Examine assumptions
 
-Remove the AI-generated final resolution. Identify the author's assumptions about consciousness and the limits of their support. Do not assert escape from causal determinism without an argument. End by identifying the unresolved conditions under which consciousness could initiate a new causal chain in the physical world. Frame that unresolved issue declaratively under the later no-question rule. Treat the course's open inquiry as the assignment's framing, not a claim that every philosophical question lacks an answer.
+Remove the AI-generated final resolution. Identify the author's assumptions about consciousness and the limits of their support. Do not assert escape from causal determinism without an argument. End by identifying the unresolved conditions under which consciousness could initiate a new causal chain in the physical world. Frame that unresolved issue declaratively under the later no-question rule. Treat the course's open inquiry as the assignment's framing. It supplies no general claim that every philosophical question lacks an answer.
 
 ## C06 — Maintain conceptual charity
 
-Check whether a selected word expresses a central concept, a passing example, or a position the author opposes. Do not assume equivalent concepts across readings from shared vocabulary. Reconstruct why the assigned author makes the claim instead of arguing against the reading. The aim involves sustained dialogue and generous interpretation.
+Check whether a selected word expresses a central concept, a passing example, or a position the author opposes. Do not assume equivalent concepts across readings from shared vocabulary. Reconstruct why the assigned author makes the claim. Follow the course restriction on arguing against the reading. The aim involves sustained dialogue and generous interpretation.
 
 ## C07 — Respect the sequence
 
@@ -52,7 +52,7 @@ Use only course materials, even when an AI draft introduces outside content. For
 
 ## C13 — Use the revision schedule
 
-The source recommends roughly 90 minutes for drafting and another 90 minutes for revision the following week, in addition to section discussion. If that process proves ineffective, examine understanding of the reading and key ideas. This schedule belongs to the course, not a universal time limit or an instruction for an agent to wait.
+The source recommends roughly 90 minutes for drafting and another 90 minutes for revision the following week, in addition to section discussion. If that process proves ineffective, examine understanding of the reading and key ideas. Apply this schedule only to the course. It sets no waiting period for an agent.
 
 ## C14 — Apply paragraph and verb exercises
 

@@ -8,9 +8,9 @@ From the project where the skill should apply:
 git clone https://github.com/Sixpennvir/better-ai-writer.git .agents/skills/better-ai-writer
 ```
 
-This preview repository is private. Authenticate Git with an account that has access first. Do not embed access tokens in a clone URL or paste them into a prompt. If the destination already exists, inspect it before installing another copy.
+This preview requires access to the private repository. Authenticate Git with an account that has access first. Do not embed access tokens in a clone URL or paste them into a prompt. If the destination already exists, inspect it before installing another copy.
 
-Codex's [official local skills guide](https://learn.chatgpt.com/docs/build-skills) documents repository discovery under `.agents/skills/` and personal discovery under `~/.agents/skills/`. The repository root is the skill folder. Preserve its `references/` and `agents/` directories; copying only SKILL.md leaves required references missing.
+Codex's [official local skills guide](https://learn.chatgpt.com/docs/build-skills) documents repository discovery under `.agents/skills/` and personal discovery under `~/.agents/skills/`. Install the repository root as the skill folder. Preserve its `references/` and `agents/` directories; copying only SKILL.md leaves required references missing.
 
 ## Manual ZIP installation
 
@@ -79,6 +79,6 @@ Request the original consciousness-course profile explicitly. Supply the passage
 
 ## When the skill pauses
 
-A tentative commitment cannot become a promise without clarification. Missing quotations or source details cannot be invented. A file-format requirement can conflict with the strict prose format. In those cases, expect the agent to identify the precise decision it needs.
+A tentative commitment cannot become a promise without clarification. Never invent missing quotations or source details. A file-format requirement can conflict with the strict prose format. In those cases, expect the agent to identify the precise decision it needs.
 
-A clear paragraph may return unchanged. An unsupported thesis may require evidence before a final revision can be delivered.
+A clear paragraph may return unchanged. An unsupported thesis may require evidence before the agent can deliver a final revision.

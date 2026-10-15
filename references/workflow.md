@@ -39,7 +39,7 @@ For a substantial argument, record each paragraph's purpose and what the reader 
 
 A paragraph need not contain all four elements. A transition can span paragraphs. Avoid forcing every paragraph into an identical claim–quote–lesson sequence.
 
-Compare non-adjacent paragraphs by proposition. Different nouns and verbs can conceal the same conclusion. Conversely, repeating a necessary technical term can help a new inference remain precise. Delete the redundant proposition, not the technical vocabulary.
+Compare non-adjacent paragraphs by proposition. Different nouns and verbs can conceal the same conclusion. Conversely, repeating a necessary technical term can help a new inference remain precise. Remove redundant propositions. Retain technical terms needed for precise reasoning.
 
 ## Revise in two directions
 
@@ -47,7 +47,7 @@ First read forward as the intended audience. Repair unclear references, missing 
 
 Then compare backward against the inputs. Verify who did what, when, under which conditions, with what certainty and attribution. Inspect each quotation character for character. A smooth sentence fails if it changes a commitment or hides a limitation.
 
-Do not shorten to a target compression ratio. A necessary warrant may increase length. If the task specifies a length that conflicts with preserving essential content, identify the tradeoff rather than silently dropping it.
+Do not shorten to a target compression ratio. A necessary warrant may increase length. If the task specifies a length that conflicts with preserving essential content, identify the tradeoff. Do not silently drop essential content.
 
 ## Work within the artifact
 
@@ -65,4 +65,4 @@ For a requested audit, distinguish a mandatory rewrite from a missing-evidence b
 
 ## Stop at a reviewable result
 
-Leave clear, compliant prose unchanged. Finish when the requested content survives and identified violations have been repaired. If an unresolved constraint requires the user's decision, explain the exact conflict. Do not deliver a silent compromise or cycle through endless cosmetic variants.
+Leave clear, compliant prose unchanged. Finish when the requested content survives and you have repaired the identified violations. If an unresolved constraint requires the user's decision, explain the exact conflict. Do not deliver a silent compromise or cycle through endless cosmetic variants.

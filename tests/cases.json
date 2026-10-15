@@ -419,5 +419,67 @@
       "P05",
       "P14"
     ]
+  },
+  {
+    "id": "intensity",
+    "input": "Use $better-ai-writer. Revise only if needed: I find the proposal deeply frustrating. It moves the deadline forward by two weeks while leaving the approval process unchanged. I oppose it because it gives reviewers less time for the same required review.",
+    "expect": [
+      "Preserve the intensity of frustration and opposition.",
+      "Preserve the asserted consequence without introducing conditional uncertainty."
+    ],
+    "rules": [
+      "R03",
+      "R12"
+    ]
+  },
+  {
+    "id": "minutes_observation",
+    "input": "Use $better-ai-writer. Revise: With concern filling the room, the panel postponed its vote, as the future hung in the balance. The minutes record the postponement and give no reason.",
+    "expect": [
+      "Do not infer the absence of concern from the minutes' missing explanation.",
+      "Clarify the observation's status and unspecified stakes when needed; do not silently delete meaningful content."
+    ],
+    "rules": [
+      "R02",
+      "R03",
+      "P11"
+    ]
+  },
+  {
+    "id": "evaluative_redefinition",
+    "input": "Use $better-ai-writer. Revise: The delay is not a failure; it is an opportunity. The team will use the extra day to check the calculations.",
+    "expect": [
+      "Preserve the author's substantive judgments or clarify consequential ambiguity before changing them.",
+      "Do not treat the prohibited frame alone as permission to delete the assessment."
+    ],
+    "rules": [
+      "R03",
+      "P01"
+    ]
+  },
+  {
+    "id": "long_form_argument",
+    "input": "Use $better-ai-writer. Revise this complete English academic argument for readers familiar with evidence assessment. Preserve its judgments, substantive objection, exact quotations, technical distinctions and conditional conclusion. Use only the draft:\n\nWhat can an empty cell in an old ledger really tell us? At its core, this question is about the relationship between records and administrative action. In this essay, I argue that the five empty reply cells in the fictional Larch petition ledger cannot support a categorical description of five unanswered petitions. It is important to distinguish the absence of an entry from the absence of a reply. I consider that categorical description methodologically indefensible on the supplied evidence, although the blanks still give an investigator a reason to examine the office's handling of the petitions.\n\nThe supplied packet concerns twelve petitions that the Larch office received between 3 and 14 January 1912. The ledger gives a receipt date for each petition. Seven rows contain a dispatch date in the reply column, while five rows leave that column empty. The packet contains no copies of outgoing replies. There is therefore no independent letter in the packet against which to check a dispatch date. It is worth noting that the seven dates record claims about dispatch; they do not by themselves establish that the letters reached their intended recipients.\n\nThe clerk's written instructions explain the intended meaning of the reply column. One sentence reads, “Enter every written reply on the day of dispatch.” Another directs the clerk to “Leave the reply column empty until a written reply leaves the office.” Under these instructions, the dispatch of a written reply should produce an entry on the same day. An empty cell should remain while no written reply has left the office. The instructions are not merely a filing convention; they are a promise of correspondence between an administrative event and its recorded trace.\n\nThe packet also contains an examiner's description of the ledger pages covering the twelve petitions. The pages run in sequence, and the examiner identifies no missing page in that interval. This matters because an absent page could otherwise remove an entry from the material available to the reader. Here, the documented page sequence gives no such explanation for the blank cells. For this discussion, page completeness means continuity of the surviving pages; recording reliability means the extent to which the clerk followed the entry instructions. Page completeness alone is not a demonstration of recording reliability.\n\nA separate inspection note supplies a concrete problem for the inference. The examiner found a written reply to one of the twelve petitions for which the clerk never entered a dispatch date. The note does not identify the petition. It therefore establishes that at least one of the five blank cells accompanied an actual written reply, while leaving the reader unable to locate that case among the five. This is a significant observation, highlighting the complexity of the relationship between events and records. The note supplies no further count of omitted entries and no explanation of the clerk's omission.\n\nThe proposed catalogue nevertheless describes the five rows as “Five unanswered petitions.” Its accompanying rationale appeals to the instruction to enter every dispatch and to the continuous page sequence. I take the strongest version of that rationale to offer a presumptive classification: a reader normally follows the office's stated convention until contrary evidence appears. That procedure gives the reader a starting point without requiring independent evidence for every routine entry. The inspection note, however, supplies contrary evidence inside the very group that the proposed description classifies. The objection cannot disappear through a general appeal to orderly record keeping.\n\nThe inference from a blank to no written reply needs the clerk to have followed the instruction in the relevant case. The instruction tells us what should have happened. The inspection note records a failure to follow it. Because the note leaves the petition unidentified, it blocks a categorical negative claim about any particular blank row. No individual row comes with enough information to exclude it from the documented omission.\n\nIt bears repeating that page completeness and recording reliability are different things. A continuous run of pages can preserve a clerk's omissions as faithfully as it preserves the clerk's entries. We have no missing page to explain these blanks, but this does not resolve the recording failure. In the same way, an instruction can describe a rule without showing that each action complied with it. This is why the integrity of the surviving pages cannot carry the full weight of the proposed classification. The distinction between page completeness and recording reliability remains crucial.\n\nThe word “unanswered” also extends beyond the evidence's scope if a reader takes it to exclude every form of response. The instructions concern written replies leaving the office. The supplied packet says nothing about face-to-face exchanges and gives no account of whether any petitioner received such a response. I do not claim that those exchanges occurred. Their absence from the packet limits the inference: even a justified finding of no written reply would leave the possibility of an oral response unsettled. A catalogue description needs to preserve that difference instead of silently expanding the meaning of the column.\n\nI recommend describing each blank as “No reply entered” and keeping the inspection note attached to the group. That description records the surviving evidence without assigning the documented omission to an unidentified petition. A later finding could support a claim that a particular petition received no written reply if it established faithful recording for that case through the relevant interval. The present packet supplies no such finding. Ultimately, the ledger reminds us of the profound importance of careful interpretation. On the present evidence, the disposition of the remaining petitions stays unresolved, and the categorical catalogue description remains methodologically indefensible.",
+    "expect": [
+      "Keep all counts and dates, both procedural quotations, and both catalogue labels exact.",
+      "Preserve page completeness versus recording reliability and dispatch versus delivery.",
+      "Retain the practical rationale for the proposed classification before explaining its failure.",
+      "Keep the unidentified documented omission distinct from a claim that every blank concealed a reply.",
+      "Preserve the author's methodological judgment, oral-response uncertainty, recommendation and conditional future evidence.",
+      "Remove non-adjacent repetition while retaining enough explanation to follow the whole argument.",
+      "Do not import facts from any example or from outside sources."
+    ],
+    "rules": [
+      "R02",
+      "R03",
+      "R04",
+      "R05",
+      "R06",
+      "R07",
+      "R12",
+      "R13",
+      "R15",
+      "P22"
+    ]
   }
 ]
