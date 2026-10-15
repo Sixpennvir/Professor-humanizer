@@ -36,41 +36,41 @@ Each worked example uses an authored fictional draft. The brief disallowed examp
 
 **Disallowed example:** “The archive does more than preserve records; it transforms memory.”
 
-**Repair:** Name the evidenced function and explain its mechanism. Remove the rhetorical upgrade.
+**Repair:** Recast the functions and judgments directly. Explain a mechanism only when the material supplies it. If an elevated characterization carries the author's position, preserve it or clarify its intended meaning and warrant before changing it.
 
 **Boundary:** Ordinary quantitative comparisons remain valid.
 
 **Worked draft:** The archive does more than preserve records; it transforms access. Readers can search its dated entries by name.
 
-**Revised prose:** The archive preserves dated records that readers can search by name.
+**Response outside the deliverable:** What change in access does “transforms access” describe, and what supports that assessment? The draft supplies preservation and name-based search, but leaves the comparison behind the transformation claim unspecified.
 
-**Preservation check:** The searchable fields survive. An undefined claim of transformation does not replace a mechanism.
+**Preservation check:** Keep the preservation function, dated entries and search field. The author's assessment of transformed access also counts as content. Its missing explanation requires clarification; deleting it would silently narrow the argument.
 
-## P03 — Parallel constructions and rhetorical triads
+## P03 — Empty parallel framing and forced triads
 
-**Trigger:** Use mirrored clauses, repeated grammatical openings, balanced slogans, or a rhythmic three-part sequence to package an argument. Check adjacent and distant sentences.
+**Trigger:** Use mirrored clauses, repeated grammatical openings, balanced slogans or a three-part sequence to simulate development while repeating a proposition or supplying unsupported significance. Check adjacent and distant sentences. Grammatical symmetry alone does not trigger this rule.
 
 **Disallowed example:** “It shapes memory, it shapes identity, it shapes history.”
 
-**Repair:** Express the actual relationship in an asymmetrical sequence with appropriate evidence. Do not split a triad into three matching sentences.
+**Repair:** Remove repeated propositions or clarify the missing support. Preserve useful parallelism when distinct clauses express an actual comparison, condition or cumulative inference. Do not disguise a repeated claim by splitting its clauses or swapping synonyms.
 
-**Boundary:** Necessary factual enumeration and coordinated noun phrases may remain when they carry required information without rhetorical parallel framing.
+**Boundary:** Necessary enumeration, balanced comparisons and the course's cumulative sentence exercise remain valid when each element contributes distinct meaning. Do not force asymmetry into clear reasoning.
 
-**Worked draft:** The scanner checks each page. The scanner then records each page number. The scanner flags each unreadable page.
+**Worked draft:** The review took two days. It required two days of review. It occupied a two-day review period.
 
-**Revised prose:** The scanner checks each page before recording the page numbers. It flags any page it cannot read.
+**Revised prose:** The review took two days.
 
-**Preservation check:** All three distinct functions survive through the stated sequence and a separate condition, without a mirrored sequence.
+**Preservation check:** All three sentences state the same duration. Deleting the duplicates loses no distinct claim. A sequence containing three different supplied actions would require preserving all three.
 
-## P04 — Question-led exposition
+## P04 — Empty question-and-answer staging
 
-**Trigger:** Introduce a paragraph or section with a rhetorical question, fabricate a reader question, or immediately answer a question posed by the narrator.
+**Trigger:** Add a generic question that announces importance, fabricates reader interest or merely repeats what the next sentence states. Repeated question-and-answer frames also trigger review when they replace analysis.
 
 **Disallowed example:** “Why does this matter? The answer lies in memory.”
 
-**Repair:** State the specific issue and develop it. Express unresolved inquiry as a declarative evidentiary need.
+**Repair:** Remove the empty question and develop the specific issue. Retain a precise question when the passage investigates it through evidence, competing interpretations or a consequential uncertainty.
 
-**Boundary:** A real clarification question addressed to the user sits outside the finished prose. Necessary quoted questions remain exact.
+**Boundary:** The source draft recommends question-led sections and open-ended questions. Those devices remain valid when they organize genuine analysis. A question may receive an answer in the following prose; the presence of an answer alone does not make it formulaic. Clarification questions and exact quoted questions also remain valid.
 
 **Worked draft:** Why does the deadline matter? The printer needs the approved file by Tuesday to prepare the copies for Friday.
 
@@ -122,9 +122,9 @@ Each worked example uses an authored fictional draft. The brief disallowed examp
 
 **Worked draft:** Enrollment rose from 20 to 24, highlighting a profound transformation in the program.
 
-**Revised prose:** Enrollment rose from 20 to 24.
+**Response outside the deliverable:** What changed in the program beyond enrollment, and how does that change support “a profound transformation”? I can preserve the increase from 20 to 24, but need the intended basis of this assessment to revise the whole claim faithfully.
 
-**Preservation check:** The actual numbers remain; the input supplies no warrant for the scale of transformation.
+**Preservation check:** The numbers and the transformation judgment both belong to the draft. Missing support does not make the judgment disposable. Clarification precedes a completed revision; do not invent a mechanism or reduce the sentence to its count alone.
 
 ## P08 — Repeated participial skeleton
 
@@ -228,15 +228,15 @@ Each worked example uses an authored fictional draft. The brief disallowed examp
 
 **Disallowed example:** “The groundbreaking result unlocks unprecedented potential.”
 
-**Repair:** State the measured outcome, comparison, and conditions available in the source.
+**Repair:** State the measured outcome, comparison and conditions available in the source. Preserve a substantive assessment or ask for the missing benchmark. Delete promotional wording when it contributes no independent judgment or the user identifies it as unwanted material.
 
-**Boundary:** Supported evaluations must retain their measurement basis.
+**Boundary:** Supported evaluations must retain their measurement basis. An unsupported claim of novelty or unprecedented performance may still carry the author's position; its missing warrant requires clarification.
 
 **Worked draft:** The groundbreaking result unlocks unprecedented efficiency. Median processing time fell from 9 seconds to 7 seconds in the test.
 
-**Revised prose:** Median processing time fell from 9 seconds to 7 seconds in the test.
+**Response outside the deliverable:** What comparison supports “groundbreaking” and “unprecedented efficiency”? The test supplies a change in median processing time from 9 seconds to 7 seconds. It does not identify a benchmark for those judgments.
 
-**Preservation check:** Retain the measure and setting; do not add statistical significance or generalize beyond the test.
+**Preservation check:** Preserve the measure and test setting. Clarify whether the evaluations express the author's position before deleting them; do not invent statistical significance or a wider comparison.
 
 ## P15 — Rote concession and pivot
 
@@ -244,15 +244,15 @@ Each worked example uses an authored fictional draft. The brief disallowed examp
 
 **Disallowed example:** “Your concern is valid. However, it overlooks the bigger picture.”
 
-**Repair:** Identify the supplied concern and resolve the precise point at issue.
+**Repair:** Identify the supplied concern and resolve the precise point at issue. If the author intends an assessment that the draft leaves unspecified, ask what supports it before replacing the reply.
 
 **Boundary:** Respectful acknowledgment with substantive engagement remains appropriate.
 
 **Worked draft:** Your scheduling concern is valid. However, it overlooks the bigger picture. The review takes two days, and we can start on Wednesday to meet Friday's deadline.
 
-**Revised prose:** We can start the two-day review on Wednesday to meet Friday's deadline.
+**Faithful clarification:** What broader consideration does the scheduling concern overlook? The supplied facts support starting the two-day review on Wednesday to meet Friday's deadline. They leave the broader consideration unspecified. A revision needs that point to preserve both your acknowledgment of the concern and your disagreement with it.
 
-**Preservation check:** The schedule answers the actual concern without a ceremonial concession or dismissive pivot.
+**Preservation check:** The schedule survives. The response identifies the missing substance behind the pivot and keeps both assessments pending clarification.
 
 ## P16 — Decorative scene opener
 
@@ -280,11 +280,13 @@ Each worked example uses an authored fictional draft. The brief disallowed examp
 
 **Boundary:** Do not rewrite quoted speech to vary its voice or evade another pattern.
 
+**Worked task:** The author identifies the praise and general lesson as unwanted AI additions and requests a sentence reporting the source's statement.
+
 **Worked draft:** As Neri aptly puts it, “The tally excludes refunds” (6). This powerful quote reminds us of the importance of careful interpretation.
 
 **Revised prose:** Neri writes, “The tally excludes refunds” (6).
 
-**Preservation check:** The supplied quotation and citation remain exact; praise of the quote supplies no analytical warrant.
+**Preservation check:** The supplied quotation and citation remain exact. The author authorizes removal of the added praise and lesson. If the lesson expresses the author's intended interpretation, preserve it or clarify its supporting warrant.
 
 ## P18 — Thematic overexplanation
 
@@ -292,15 +294,15 @@ Each worked example uses an authored fictional draft. The brief disallowed examp
 
 **Disallowed example:** “This moment taught her the true meaning of belonging.”
 
-**Repair:** Retain the event and add interpretation only if the task needs a supported inference.
+**Repair:** Retain the event and remove a repeated lesson only when its substantive meaning survives elsewhere or the author requests removal. Preserve a distinct intended interpretation and identify any support it needs.
 
-**Boundary:** Analytical discussion of a narrative can explicitly interpret evidence without circular repetition.
+**Boundary:** Analytical discussion of a narrative can explicitly interpret evidence without circular repetition. An unsupported thematic judgment still belongs to the author until clarified or explicitly withdrawn.
 
 **Worked draft:** Owen closed the shop and placed the key in the drawer. This act captured the enduring importance of closure.
 
-**Revised prose:** Owen closed the shop and placed the key in the drawer.
+**Faithful clarification:** What lasting significance do you intend by “the enduring importance of closure,” and which details support it? Closing the shop and putting away the key establish the actions. The thematic interpretation needs its own basis; deleting it would change the account you supplied.
 
-**Preservation check:** The actions survive without a thematic label that merely restates closure.
+**Preservation check:** The clarification retains both actions and identifies the intended judgment without substituting a weaker interpretation. The final revision awaits the author's explanation or permission to remove it.
 
 ## P19 — Unearned optimism
 
@@ -312,11 +314,13 @@ Each worked example uses an authored fictional draft. The brief disallowed examp
 
 **Boundary:** State a supported positive outcome at its true scope.
 
+**Worked task:** The author identifies the final sentence as an unwanted AI-added slogan and requests its removal.
+
 **Worked draft:** The clinic postponed the appointment. A brighter future now awaits.
 
 **Revised prose:** The clinic postponed the appointment.
 
-**Preservation check:** Nothing in the input supports the optimistic prediction.
+**Preservation check:** The author explicitly authorizes removal of the slogan. The postponement survives. Without that instruction, clarify a consequential prediction or promise before deleting it.
 
 ## P20 — Forced tidy closure
 
@@ -327,6 +331,8 @@ Each worked example uses an authored fictional draft. The brief disallowed examp
 **Repair:** Name the precise supported result or remaining premise without generic balancing.
 
 **Boundary:** Confirmed affairs may close directly; do not manufacture uncertainty.
+
+**Worked task:** The author asks to remove the AI-added final sentence and preserve the panel's unresolved decision.
 
 **Worked draft:** The panel recorded two objections and deferred its decision. This brings the discussion to a satisfying conclusion.
 

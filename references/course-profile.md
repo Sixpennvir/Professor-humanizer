@@ -20,7 +20,7 @@ Ask how a specific stylistic feature contributes to the passage's content and co
 
 ## C05 — Examine assumptions
 
-Remove the AI-generated final resolution. Identify the author's assumptions about consciousness and the limits of their support. Do not assert escape from causal determinism without an argument. End by identifying the unresolved conditions under which consciousness could initiate a new causal chain in the physical world. Frame that unresolved issue declaratively under the later no-question rule. Treat the course's open inquiry as the assignment's framing. It supplies no general claim that every philosophical question lacks an answer.
+Remove the AI-generated final resolution. Identify the author's assumptions about consciousness and the limits of their support. Do not assert escape from causal determinism without an argument. End by explaining why the question of whether and how consciousness could initiate a new causal chain in the physical world remains unresolved. A precise open question may name the missing condition or argument. Treat the course's open inquiry as the assignment's framing. It supplies no general claim that every philosophical question lacks an answer.
 
 ## C06 — Maintain conceptual charity
 
@@ -36,11 +36,11 @@ Write for the section chief who already knows the team reading. Avoid summary th
 
 ## C09 — Revise for comprehension
 
-Seek precise diagnoses of where readers lose interest or become confused. Clarify a difficult sentence or paragraph directly. Avoid ornamental polishing. Connect prose with meaningful transitions. Later user-approved rules remove all subheadings and lists and override the original suggestion to introduce sections through questions.
+Seek precise diagnoses of where readers lose interest or become confused. Clarify a difficult sentence or paragraph directly. Avoid ornamental polishing. Remove AI-generated subheadings and lists from the essay and connect the prose with meaningful transitions. Introduce sections with substantive questions that the following discussion answers. Each question should identify a real interpretive problem; remove generic prompts that merely announce importance.
 
 ## C10 — Preserve the project's open development
 
-This early build introduces a larger essay assembled from staged work. Confront unsupported AI assertions with supplied course problems such as instability of self, free will, and the mind–brain relation where relevant. Avoid generic “both sides” hedging. The semester project develops an account of how consciousness could effect material change. Do not fabricate a solved account at this stage.
+This early build introduces a larger essay assembled from staged work. Confront unsupported AI assertions with supplied course problems such as instability of self, free will, and the mind–brain relation where relevant. Avoid generic “both sides” hedging. The semester project develops an account of how consciousness could effect material change. End this introductory build with open-ended questions grounded in the analysis. Identify the specific premise or relation that further work must examine. Do not fabricate a solved account at this stage.
 
 ## C11 — Follow supplied citation conventions
 
@@ -56,6 +56,8 @@ The source recommends roughly 90 minutes for drafting and another 90 minutes for
 
 ## C14 — Apply paragraph and verb exercises
 
-Use a short direct opening or useful imperative. Develop necessary background and causal or conditional analysis with varied sentence lengths. Close with a supported synthesis, a qualified implication, or a relevant concise observation. Preserve room for effective departures from the template within the later mandatory bans. The later rules prohibit parallel clauses and questions that the original paragraph exercise permitted.
+Open with a short direct sentence, a substantive question, or a useful imperative. Alternate longer background sentences with shorter analytical sentences where the reasoning benefits. Use causal links, conditionals and parallel constructions to develop distinct steps in the argument. Avoid forcing the same rhythm on every paragraph.
+
+An ending may accumulate connected points in a longer sentence, including repeated opening words when each clause advances the reasoning. It may instead raise a precise question, qualify a possible implication, or offer a concise pun, wry observation or humorous analogy that serves the analysis. Preserve effective departures from this template. Remove repetition that adds no content and decorative symmetry that hides the argument.
 
 Attempt to remove all original “to be” forms through accurate recasting. Identify the action at the center of a sentence, then select its verb. Prepare candidate verbs before drafting when repetition seems likely. Use the calibrated bank in [rules](rules.md). The screenshot's cognitive explanation motivates an exercise; do not present it as independently verified neuroscience.

@@ -6,7 +6,7 @@ Start with a concrete passage and the editing problem. Include the full input, d
 
 Every before/after demonstration must expose all the facts needed for its revision inside the before text. Keep the recipient, quantities, conditions, attribution and substantive position. A shorter revision fails if it loses an independent claim.
 
-Write original examples. Do not copy passages from other skills or their documentation. Attribute a design observation in the [design review](docs/design-review.md) when it influences this project. A reference project's policy does not override this project's mandatory rules.
+Write original examples and attribute any quoted material. Document the basis of an editorial decision in [source traceability](references/traceability.md). Distinguish source instructions, explicit requirements and operational interpretations.
 
 For the featured examples, edit [showcases.json](examples/showcases.json) and regenerate with `python scripts/showcases.py --write`. Check protected anchors and perform a semantic comparison. Keep unchanged-output and clarification cases where an automatic rewrite would harm meaning.
 

@@ -8,11 +8,11 @@ Identify what this text must accomplish and what its reader already knows. Selec
 
 ## R02 — Bound the evidence
 
-Use only materials supplied by the user for factual claims. Do not browse to enrich a writing assignment. Research linked in this skill explains its design and supplies no subject-matter evidence for the user's text. Ask for missing material that controls the argument. You may remove an unsupported claim when removal preserves the requested meaning; otherwise flag the gap. Never invent page numbers, quotations, statistics, motives, events, or experience. Keep interpretation visibly distinct from source fact. A missing warrant does not by itself make a supplied observation or judgment disposable. Preserving a supplied assertion does not independently verify it. If the draft conflicts with supplied evidence, identify the conflict. Do not convert an attributed allegation into your own factual claim.
+For revision, use the supplied draft and supporting material as the evidence boundary. Do not add outside facts or browse without authorization. When the user requests research as part of drafting or revision, verify sources, preserve their attribution and distinguish new evidence from the author's existing claims. The original course retains C12's restriction on outside material. Research linked in this skill explains its design and supplies no subject-matter evidence for the user's text. Ask for missing material that controls the argument. Remove a consequential unsupported claim only with permission or when the task explicitly identifies it as unwanted AI-added material; otherwise flag the gap. Never invent page numbers, quotations, statistics, motives, events, or experience. Keep interpretation visibly distinct from source fact. A missing warrant does not by itself make a supplied observation or judgment disposable. Preserving a supplied assertion does not independently verify it. If the draft conflicts with supplied evidence, identify the conflict. Do not convert an attributed allegation into your own factual claim.
 
 ## R03 — Preserve meaning and ownership
 
-Keep the author's position and intended degree of commitment. Preserve numbers, comparisons, exceptions, deadlines, conditions, modality, and attribution. Repair unambiguous expression directly. Clarify any proposed change to a fact, commitment, position, key qualification, or ambiguous intent. Develop personal voice through the writer's chosen details and judgments. Never invent autobiography or add casual filler. Use first person strategically to identify an actual interpretive move or a remaining problem. A voice sample contributes compatible expression, never its events or opinions. Distinguish empty praise from a substantive judgment; deleting an author's position requires the same care as changing it.
+Keep the author's position and intended degree of commitment. Preserve numbers, comparisons, exceptions, deadlines, conditions, modality, and attribution. Repair unambiguous expression directly. Clarify any proposed change to a fact, commitment, position, key qualification, or ambiguous intent. Develop personal voice through the writer's chosen details and judgments. Never invent autobiography or add casual filler. Use first person strategically to identify an actual interpretive move or a remaining problem. A voice sample contributes compatible expression, never its events or opinions. Distinguish empty framing from a substantive judgment by what deletion would change: an assessment, explanation, recommendation or degree of commitment counts as content even when its support remains incomplete. Deleting that content requires the same care as changing it. A prohibited sentence frame authorizes recasting its expression; it does not authorize deleting its propositions. Remove repetition only after checking that another passage retains the same claim and qualifications. Clarify ambiguous ownership or intended meaning before claiming a faithful completed revision.
 
 ## R04 — Make analysis earn its place
 
@@ -32,11 +32,11 @@ Assign a distinct function to each paragraph. A repeated conclusion needs additi
 
 ## R08 — Shape continuous prose
 
-Remove subheadings, bullets, and numbered lists from finished prose in every supported scenario. Build transitions from the actual relationship between ideas. Do not replace headings with stock signposting. Open paragraphs with a short direct claim, concrete observation, or useful imperative. Do not open with a question. Use longer sentences when the relationship requires them and shorter sentences for concentrated analysis; never alternate lengths mechanically.
+Write essays and the original course assignment as connected paragraphs without subheadings, bullets, or numbered lists. For other genres, use the structure the task and reader require: a report may retain informative headings, and a procedure may need ordered steps. Within each prose section, build transitions from the actual relationship between ideas. Do not substitute stock signposting for that relationship. Open a paragraph with a short direct claim, concrete observation, useful imperative or precise question that the following analysis develops. Course sections should introduce the question they investigate. Remove generic question-and-answer staging under P04. Use longer sentences when the relationship requires them and shorter sentences for concentrated analysis; never alternate lengths mechanically. Parallel clauses can clarify distinct comparisons or cumulative reasoning; remove empty rhythmic packaging under P03.
 
 ## R09 — Choose an earned paragraph ending
 
-End where the paragraph's reasoning reaches a useful result, a precise qualification, or a declarative unresolved condition. A cumulative synthesis must avoid repeated parallel clauses. A brief analogy or wry observation may work if supported and relevant. Do not require a punchline, summary, question, or transition in every paragraph. Effective departures from the paragraph template remain possible within the mandatory bans.
+End where the paragraph's reasoning reaches a useful result, a precise qualification or a concrete unresolved question. A cumulative synthesis may repeat an opening when each clause adds a distinct supported element; repetition of the same proposition still violates R07. A brief analogy or wry observation may work if supported and relevant. Do not require a punchline, summary, question or transition in every paragraph. Preserve effective departures from the paragraph template when they help the reader follow the argument.
 
 ## R10 — Give verbs precise work
 
@@ -56,7 +56,7 @@ State what the evidence supports, under what conditions, and where it stops. Avo
 
 ## R13 — End according to the task
 
-Exploration: identify the precise remaining assumption, competing explanation, or evidentiary need in a declarative sentence. Do not add a generic research agenda.
+Exploration: identify the precise remaining assumption, competing explanation or evidentiary need. A specific open question may express that uncertainty. Do not add a generic research agenda.
 
 Action: give the supported recommendation or next step, preserving conditions and authority. Do not manufacture a promise.
 
@@ -64,7 +64,7 @@ Confirmed affairs: close directly after the necessary information. Do not invent
 
 Narrative: stop at the supported event or consequence. Do not append an explanatory moral or optimism the story has not earned.
 
-The original course requires its specific unresolved consciousness problem. No profile permits rhetorical questions or forced closure.
+The original course requires an open-ended question about its unresolved consciousness problem. All scenarios exclude empty question staging under P04 and forced closure under P20.
 
 ## R14 — Revise by diagnosis
 
@@ -72,7 +72,7 @@ When asked to improve prose, identify exact places where a reader loses the argu
 
 ## R15 — Protect quotations and attribution
 
-Keep necessary supplied direct quotations exact, including banned patterns inside them. Add only source details the user actually supplied. Do not correct quotation grammar or silently paraphrase inside quotation marks. Do not move a quote to a stock location just to vary the paragraph. Retain the quote where it supports a specific inference. If the text supplies no attribution, ask for it when attribution matters.
+Keep necessary supplied direct quotations exact, including banned patterns inside them. Use source details supplied by the user or verified through research the task authorizes. Preserve the original course's citation conventions and source boundary. Do not correct quotation grammar or silently paraphrase inside quotation marks. Do not move a quote to a stock location just to vary the paragraph. Retain the quote where it supports a specific inference. If the text supplies no attribution, ask for it when attribution matters.
 
 ## R16 — Separate the artifact from the review
 
@@ -89,7 +89,7 @@ Default output contains the requested prose alone. A requested diagnostic report
 | Public explanation | Reader knowledge, terms, factual boundaries | Develop one relation at a time | Implication within the evidence |
 | Narrative | Events, perspective, supplied voice | Let detail carry meaning without thematic repetition | Earned event or consequence |
 
-Every row retains the same mandatory style bans. Scenario adaptation changes the rhetorical task, never the source boundary.
+Every row retains the catalogue's prohibitions on formulaic uses and the same fidelity requirements. Set format and evidence permissions from the task under R01, R02 and R08. Course-specific restrictions apply when that profile has been activated.
 
 ## Candidate verbs from the supplied writing exercise
 

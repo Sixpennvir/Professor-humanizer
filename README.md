@@ -8,11 +8,11 @@ The skill rejects deliberate errors or degraded prose as shortcuts to a human vo
 
 [Examples](references/examples.md) · [Install](docs/usage.md) · [Writing rules](references/rules.md) · [Pattern catalogue](references/patterns.md) · [Evaluation](tests/README.md) · [Discussion](https://github.com/Sixpennvir/professor-humanizer/discussions/2)
 
-[**Download v0.3.0**](https://github.com/Sixpennvir/professor-humanizer/releases/tag/v0.3.0) · [MIT license](LICENSE)
+[**Download v0.4.0**](https://github.com/Sixpennvir/professor-humanizer/releases/tag/v0.4.0) · [MIT license](LICENSE)
 
 ## Revision Examples
 
-The following teaching example uses a fictional passage. Everything needed for the revision appears in the draft. These authored examples illustrate the intended edits. The [evaluation page](tests/README.md) distinguishes them from the recorded model smoke check.
+The following teaching example uses a fictional passage. Everything needed for the revision appears in the draft. These authored examples illustrate the intended edits. The [evaluation page](tests/README.md) distinguishes them from recorded model responses and their reviews.
 
 <!-- showcase:start -->
 **Before**
@@ -42,15 +42,15 @@ The following teaching example uses a fictional passage. Everything needed for t
 | Sentences | Replace formulaic constructions with precise relationships |
 | Ending | Close at the actual result, next step or unresolved premise |
 
-A shorter text can still lose the argument. This skill checks what survives each edit and allows necessary explanation to take more space.
+A shorter text can still lose the argument. This skill checks what survives each edit and allows necessary explanation to take more space. A missing warrant prompts a support check; it cannot by itself justify deleting the author's judgment.
 
 ## The strict profile
 
-Finished English prose uses connected paragraphs, without subheadings or lists. The strict profile excludes negative redefinition such as “not X but Y,” additive upgrades, rhetorical parallelism and question-led exposition. The [22-pattern catalogue](references/patterns.md) also covers unsupported significance, repeated sentence structures and paragraph loops.
+Essays and the original course assignment use connected paragraphs without subheadings or lists. Reports and memos may retain informative structure required by their purpose or requested by the user. The strict profile excludes negative redefinition such as “not X but Y,” additive upgrades, empty question-and-answer staging and forced rhetorical symmetry. The [22-pattern catalogue](references/patterns.md) also covers unsupported significance, repeated sentence structures and paragraph loops.
 
 The verb exercise attempts to remove original “to be” forms through faithful recasting. Exact quotations retain their source wording. If meaning and a mandatory style rule cannot coexist, the agent identifies the conflict and preserves the claim.
 
-These restrictions express the project's chosen style. They apply across scenarios. Ordinary grammar falls under the catalogue's specific boundaries; the project does not blacklist every participle, conjunction or technical term. Documentation and requested diagnostic reports may use headings and tables.
+A substantive question can guide an inquiry. Parallel clauses can develop distinct steps, and a cumulative ending can bring those steps together. The catalogue evaluates their contribution to the argument. Ordinary grammar falls under its specific boundaries; the project does not blacklist every participle, conjunction or technical term. Documentation and diagnostic reports may use headings and tables.
 
 ## Try it
 
@@ -79,13 +79,13 @@ The [course profile](references/course-profile.md) preserves the original consci
 
 The general rules also apply to research summaries, emails, decision writing and narrative. A confirmed message can close directly. A recommendation needs its real conditions. An exploratory argument preserves a concrete unresolved issue.
 
-The skill operates on user-supplied material. It does not browse for facts to insert into a writing task. A sample offered for voice calibration contributes expression only.
+Revision uses supplied materials by default. Explicitly authorized research can add verified, attributed sources within the task’s evidence boundary. The original course assignment still requires instructor approval for outside material. A sample offered for voice calibration contributes expression only.
 
 ## Reviewable development
 
 | Artifact | What you can inspect |
 | --- | --- |
-| [Source traceability](references/traceability.md) | Original requirements, approved overrides and current implementation |
+| [Source traceability](references/traceability.md) | Source instructions, explicit requirements and implementation boundaries |
 | [Evidence record](references/evidence.md) | Research findings and their limits |
 | [Design review](docs/design-review.md) | Example design, implementation decisions and acceptance criteria |
 | [Showcase source](examples/showcases.json) | Complete drafts, revisions, protected anchors and editorial checks |

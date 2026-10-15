@@ -23,7 +23,7 @@ python scripts/showcases.py --write
 
 This updates the gallery and only the marked example block in the README. Each pair needs a complete draft, a revision, protected literal anchors, and editorial preservation checks. The draft must supply every fact the revision uses. A task note must not introduce facts absent from it.
 
-The anchor checks can detect a changed quotation or quantity. They cannot detect every changed causal claim, attribution, or implication. Manually compare the complete pair after generation.
+The anchor checks can detect a changed quotation or quantity. They cannot detect every changed causal claim, attribution, or implication. Manually compare the complete pair after generation. Track each substantive judgment and qualification from the draft to the revision. If a claim lacks a warrant, the example must preserve its substance and identify the support gap; unsupported status alone does not authorize deletion.
 
 Keep these authored examples distinct from [behavioral cases](../tests/cases.json). Cases contain prompts for actual model runs; their expected invariants should not enter the model's prompt.
 
@@ -41,4 +41,6 @@ Do not claim a community survey, user test, model benchmark, or improvement perc
 
 ## Behavioral evidence
 
-Follow the [evaluation protocol](../tests/README.md). Store real input and output with the host, model, version and run date. Report failures and blocked cases. A run on one model does not establish cross-host compatibility.
+Follow the [evaluation protocol](../tests/README.md). Store real input and output with the host, model, version and run date. Report failures and blocked cases. Evaluate substantive questions, useful parallel clauses, report structure and authorized research against their actual boundaries. An expected outcome must not reward deleting the author's position to satisfy a style rule.
+
+For long-form revisions, compare the source claims with their revised locations and inspect non-adjacent paragraph functions. Report lost qualifications, changed inferences and repeated conclusions separately from literal-anchor checks. A run on one model does not establish cross-host compatibility.

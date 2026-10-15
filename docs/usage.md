@@ -14,7 +14,7 @@ Codex's [official local skills guide](https://learn.chatgpt.com/docs/build-skill
 
 ## Manual ZIP installation
 
-Download [professor-humanizer-v0.3.0.zip](https://github.com/Sixpennvir/professor-humanizer/releases/download/v0.3.0/professor-humanizer-v0.3.0.zip) from the [release page](https://github.com/Sixpennvir/professor-humanizer/releases/tag/v0.3.0). The accompanying `.sha256` file contains the archive's SHA-256 checksum. Extract the `professor-humanizer/` folder into `.agents/skills/` in your working project. Confirm that `.agents/skills/professor-humanizer/SKILL.md` exists directly at that path.
+Download [professor-humanizer-v0.4.0.zip](https://github.com/Sixpennvir/professor-humanizer/releases/download/v0.4.0/professor-humanizer-v0.4.0.zip) from the [release page](https://github.com/Sixpennvir/professor-humanizer/releases/tag/v0.4.0). The accompanying `.sha256` file contains the archive's SHA-256 checksum. Extract the `professor-humanizer/` folder into `.agents/skills/` in your working project. Confirm that `.agents/skills/professor-humanizer/SKILL.md` exists directly at that path.
 
 For personal installation, place the same folder under your home directory's `.agents/skills/`. Do not install duplicate copies at several scopes unless you intend to manage them separately.
 
@@ -26,7 +26,7 @@ Invoke `$professor-humanizer` in a Codex request. If discovery does not refresh,
 git -C .agents/skills/professor-humanizer pull --ff-only
 ```
 
-This preserves a clear failure when local edits and upstream history diverge. Inspect any local changes before resolving that conflict. ZIP installations require replacing the skill files deliberately; keep any edits you want to retain.
+If Git reports that the histories have diverged, preserve any local edits and reinstall from the current ZIP or a fresh clone. Reapply only the file changes you intend to keep; merging the old history could restore obsolete content. Keep backups outside the host's skill discovery directories. ZIP installations require replacing the skill files deliberately; keep any edits you want to retain.
 
 ## Existing Better AI Writer installations
 
@@ -37,7 +37,7 @@ git -C .agents/skills/better-ai-writer remote set-url origin https://github.com/
 git -C .agents/skills/better-ai-writer pull --ff-only
 ```
 
-Inspect local edits before updating. After a successful update, rename that installed folder to `professor-humanizer` and invoke `$professor-humanizer`. Apply the same steps to a personal installation at its actual path. Keep one active installation at the intended scope. The recorded v0.2.0 model test retains the project name and prompt used for that run.
+Inspect local edits before updating. If the fast-forward update fails, follow the reinstall guidance above. After a successful update or reinstall, use `professor-humanizer` as the installed folder name and invoke `$professor-humanizer`. Apply the same steps to a personal installation at its actual path. Keep one active installation at the intended scope. The recorded v0.2.0 model test retains the project name and prompt used for that run.
 
 ## Revision
 
@@ -52,7 +52,7 @@ Source passage: [...]
 Draft: [...]
 ```
 
-The source passage supplies evidence; the draft supplies your interpretation. If they disagree on a consequential claim, the skill should identify that conflict.
+The source passage supplies evidence; the draft supplies your interpretation. If they disagree on a consequential claim, the skill should identify that conflict. An interpretation may need a stronger warrant while still carrying your position. The agent should preserve its substance and identify the support gap separately.
 
 ## Drafting from supplied material
 
@@ -67,6 +67,12 @@ Return only the email.
 
 Drafting permits selection and organization of the supplied facts. It does not permit invented context or commitments.
 
+## Research and document structure
+
+Revision uses supplied material unless the task authorizes research. For a researched draft, specify the question, permitted sources and attribution requirements. The agent must verify added claims against those sources. Permission to research cannot authorize invented evidence, and the original course profile still requires the instructor's approval for outside material.
+
+Essays use connected prose. A report or memo can retain requested or genre-required headings, lists and tables when they help readers use the information. A question may introduce a substantive issue that the discussion addresses. Parallel clauses may develop distinct steps in the reasoning. Empty question-and-answer staging and forced symmetry remain subject to the pattern catalogue.
+
 ## Diagnosis without rewriting
 
 ```text
@@ -78,7 +84,7 @@ Do not rewrite the complete draft or modify files.
 [Draft]
 ```
 
-A diagnostic may use structured findings. The prose deliverable itself retains the no-heading/no-list rule.
+A diagnostic may use structured findings. A later revision follows the structure appropriate to the requested document.
 
 ## Author samples
 
@@ -90,6 +96,6 @@ Request the original consciousness-course profile explicitly. Supply the passage
 
 ## When the skill pauses
 
-A tentative commitment cannot become a promise without clarification. Never invent missing quotations or source details. A file-format requirement can conflict with the strict prose format. In those cases, expect the agent to identify the precise decision it needs.
+A tentative commitment cannot become a promise without clarification. Never invent missing quotations or source details. If a necessary prose edit would damage a protected file structure or link target, expect the agent to identify that conflict and the decision it needs.
 
-A clear paragraph may return unchanged. An unsupported thesis may require evidence before the agent can deliver a final revision.
+A clear paragraph may return unchanged. A substantive thesis with missing support may require clarification before a faithful revision can be completed. The agent must not silently delete it or replace the author's position.

@@ -17,7 +17,7 @@ This skill uses the supplied writing exercises as its foundation and independent
 
 ## Editorial policy versus empirical findings
 
-The absolute bans on negative redefinition, additive escalation, rhetorical parallelism, and rhetorical questions express this project's chosen style. Human writers also use those devices effectively. The policy intentionally excludes them from original deliverables; the evidence does not make them intrinsically wrong.
+The bans on negative redefinition and additive escalation express editorial choices; the research does not establish those constructions as unique evidence of AI authorship. The supplied course guidance uses substantive questions and meaningful parallel reasoning. P03 and P04 preserve those functions while excluding empty rhythmic packaging and generic question-and-answer staging. Apply each entry's stated boundary before deciding that a passage needs revision.
 
 P05, P06, P12, P14, and P22 also operationalize the supplied draft's requirements for substance, support, and non-repetition. The catalogue uses original illustrations. It quotes no study examples. Describe a string as measurably frequent only when a cited study supplies that measurement.
 

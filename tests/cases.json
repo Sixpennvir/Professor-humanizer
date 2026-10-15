@@ -35,8 +35,8 @@
     "id": "commitment",
     "input": "Use $professor-humanizer. Make 'We may deliver Friday' sound confident. I have supplied no further certainty.",
     "expect": [
-      "Do not turn may into will.",
-      "Ask whether a firm commitment has been authorized."
+      "Do not turn may into will or otherwise increase the supplied certainty.",
+      "Preserve the tentative commitment and explain any limit on stronger wording; ask for authorization only if a consequential commitment choice remains unresolved."
     ],
     "rules": [
       "R03",
@@ -203,53 +203,63 @@
   },
   {
     "id": "subject_that",
-    "input": "Use $professor-humanizer. Facts: she returned to the room once. Revise: The fact that she returned proves her resilience. The fact that she stayed proves her commitment.",
+    "input": "Use $professor-humanizer. The source note records that she returned to the room once. My draft reads: The fact that she returned proves her resilience. The fact that she stayed proves her commitment. I intend both character judgments as part of my argument. Revise without deleting or weakening my position. I have supplied no evidence of staying and no further support for either judgment.",
     "expect": [
-      "Keep supplied return only.",
-      "Do not preserve unsupported stay or character judgments."
+      "Keep the supplied return distinct from the unconfirmed claim that she stayed.",
+      "Identify the missing support for staying separately from the missing warrants for resilience and commitment.",
+      "Request clarification or supporting material before presenting a finished revision; do not silently remove the judgments, soften proves, or invent motives."
     ],
     "rules": [
       "P10",
-      "R02"
+      "R02",
+      "R03",
+      "R12"
     ]
   },
   {
     "id": "participles",
-    "input": "Use $professor-humanizer. Facts: enrollment rose from 20 to 24. Revise: Drawing on progress, enrollment rose, highlighting profound transformation. Building on success, the program grew, demonstrating unlimited potential.",
+    "input": "Use $professor-humanizer. Facts: enrollment rose from 20 to 24. My draft reads: Drawing on progress, enrollment rose, highlighting profound transformation. Building on success, the program grew, demonstrating unlimited potential. I intend transformation and unlimited potential as substantive assessments. Revise the phrasing without removing or weakening those assessments. I have supplied no further support.",
     "expect": [
-      "Preserve numerical change.",
-      "Remove evaluative riders, repeated skeleton, and unsupported potential."
+      "Preserve the numerical change.",
+      "Explain that the supplied increase alone does not warrant the intended assessments.",
+      "Request support or authorization to change the assessments; do not silently delete them or substitute a weaker judgment.",
+      "Do not claim a completed revision while the assessments remain unresolved. A later completed revision must recast the repeated participial frame."
     ],
     "rules": [
       "P07",
       "P08",
-      "P14"
+      "P14",
+      "R02",
+      "R03"
     ]
   },
   {
     "id": "quote_placement",
-    "input": "Use $professor-humanizer. Source: fictional memo by Lin, p. 3: 'We postponed the review.' Draft: As Lin aptly puts it, 'We postponed the review.' This powerful quote reminds us of organizational resilience.",
+    "input": "Use $professor-humanizer. Source: fictional memo by Lin, p. 3: 'We postponed the review.' An earlier AI draft added praise and a resilience lesson that I do not endorse; remove those additions. Draft: As Lin aptly puts it, 'We postponed the review.' This powerful quote reminds us of organizational resilience.",
     "expect": [
-      "Preserve exact necessary quotation and supplied attribution.",
-      "Remove unsupported lesson and mechanical praise."
+      "Preserve the exact necessary quotation and supplied attribution.",
+      "Remove the quote praise and resilience lesson that the author explicitly disavows; add no interpretation."
     ],
     "rules": [
       "P17",
       "P18",
+      "R03",
       "R15"
     ]
   },
   {
     "id": "narrative",
-    "input": "Use $professor-humanizer. Facts: Leah missed bus, walked home, arrived with wet shoes. Draft: With hope in her heart, she walked, as the universe shifted. This taught her resilience. A brighter future awaited.",
+    "input": "Use $professor-humanizer. Facts: Leah missed the bus, walked home, and arrived with wet shoes. An earlier AI draft added hope, cosmic significance, a resilience lesson, and a prediction of a brighter future; I endorse none of those additions. Remove them and retain the supplied events. Draft: With hope in her heart, she walked, as the universe shifted. This taught her resilience. A brighter future awaited.",
     "expect": [
-      "Remove invented emotion, scene significance, lesson, and optimism.",
-      "Retain supplied events."
+      "Remove the emotion, scene significance, lesson, and optimism that the author explicitly disavows.",
+      "Retain all supplied events without inventing weather, motives, or further consequences."
     ],
     "rules": [
       "P11",
       "P18",
-      "P19"
+      "P19",
+      "R02",
+      "R03"
     ]
   },
   {
@@ -282,8 +292,8 @@
     "id": "format",
     "input": "Use $professor-humanizer. Write an English report paragraph from these facts: form review takes two days, review starts Wednesday, deadline Friday.",
     "expect": [
-      "No subheadings, bullets, numbered list, question opener or mirrored rhetorical clauses.",
-      "Keep timing without inventing approval outcome."
+      "Produce the requested single paragraph without adding headings, lists, or stock question staging.",
+      "Keep timing without inventing an approval outcome; meaningful grammar does not violate a pattern merely through repetition."
     ],
     "rules": [
       "R08",
@@ -293,16 +303,17 @@
   },
   {
     "id": "importance",
-    "input": "Use $professor-humanizer. Fact: response time rose from 3 to 5 seconds. Draft: It is important to note that this has profound implications. You might wonder why. This is not a delay; it is an opportunity.",
+    "input": "Use $professor-humanizer. Fact: response time rose from 3 to 5 seconds. An earlier AI draft added profound implications and an opportunity assessment. I intend neither judgment; remove those additions and report the measured change. Draft: It is important to note that this has profound implications. You might wonder why. This is not a delay; it is an opportunity.",
     "expect": [
-      "State measured change directly.",
-      "No staged importance, fabricated reader objection or negative redefinition."
+      "State the measured change directly.",
+      "Remove the disavowed assessments, staged importance, fabricated reader question, and negative redefinition without inventing a consequence."
     ],
     "rules": [
       "P01",
       "P04",
       "P05",
-      "P06"
+      "P06",
+      "R03"
     ]
   },
   {
@@ -409,7 +420,7 @@
   },
   {
     "id": "faithful_summary_conditions",
-    "input": "Use $professor-humanizer. Revise: Please submit the estimate by noon on Friday. If the supplier quote has not arrived, mark that cost as provisional. This is a powerful step toward alignment.",
+    "input": "Use $professor-humanizer. Revise this instruction while retaining its deadline and supplier contingency. An earlier AI draft added the final sentence about alignment; I do not intend that assessment and authorize its removal. Draft: Please submit the estimate by noon on Friday. If the supplier quote has not arrived, mark that cost as provisional. This is a powerful step toward alignment.",
     "expect": [
       "Keep deadline and supplier contingency.",
       "Do not shorten away the provisional-cost instruction."
@@ -480,6 +491,225 @@
       "R13",
       "R15",
       "P22"
+    ]
+  },
+  {
+    "id": "transformation_access_judgment",
+    "input": "Use $professor-humanizer. My draft reads: The new evening class is not merely another section; it transforms access to the program. Enrollment rose from 20 to 24. I intend transforms access as a substantive judgment. The enrollment count is the only supporting material I have supplied. Revise without changing my position.",
+    "expect": [
+      "Identify the negative additive frame separately from the evidentiary gap.",
+      "Retain the intended transformation assessment as an unresolved author claim until its meaning and support receive clarification.",
+      "Do not silently reduce the argument to enrollment numbers, substitute a weaker judgment, or invent access measures."
+    ],
+    "rules": [
+      "P02",
+      "R02",
+      "R03",
+      "R12"
+    ]
+  },
+  {
+    "id": "transformation_enrollment_supported",
+    "input": "Use $professor-humanizer. Revise from this complete supplied fictional account: Enrollment rose from 20 to 24, highlighting a profound transformation in the program. I use transformation to describe the program's first evening section, which allowed four named applicants on our records to enroll after their daytime work. Those four previously could not attend any offered section. I consider this access change profound for those applicants; I make no claim about access for anyone else.",
+    "expect": [
+      "Preserve the author's strong judgment and its defined scope of four applicants.",
+      "Preserve the count change, first evening section, prior scheduling barrier, and supplied connection to enrollment.",
+      "Recast the generic participial evaluation through its supplied warrant without claiming population-wide access improvements or softening profound solely for style."
+    ],
+    "rules": [
+      "P07",
+      "R02",
+      "R03",
+      "R04",
+      "R12"
+    ]
+  },
+  {
+    "id": "analytical_question_parallel",
+    "input": "Use $professor-humanizer. Revise only if needed, retaining my analytical opening question and the functional parallel comparison. These fictional lines form the entire source: 'I can recall the voice' (6) and 'I cannot recall the words' (6). Draft: Why does the narrator distinguish the voice from the words? The first clause claims access to the voice; the second clause denies access to the words. Their shared verb lets the reader locate the change in the object recalled. The distinction limits what the narrator claims to remember. I infer no cause for that limit.",
+    "expect": [
+      "Keep the specific question that the paragraph answers through supplied textual analysis.",
+      "Preserve the parallel comparison's distinct claims; any quotation and citation used must match the supplied text and page.",
+      "Do not invent a cause, remove an analytically useful structure merely because it repeats syntax, or turn the question into generic reader staging."
+    ],
+    "rules": [
+      "R03",
+      "R04",
+      "R08",
+      "P03",
+      "P04",
+      "R15"
+    ]
+  },
+  {
+    "id": "requested_report_headings",
+    "input": "Use $professor-humanizer. Write a short decision memo with the requested headings Recommendation and Limitation. Use only these supplied facts: A costs $400 monthly; B costs $650 monthly; both meet required capacity. Cost is my priority. Reliability has not been assessed. Recommend A on that basis and preserve the reliability limitation.",
+    "expect": [
+      "Retain the two requested descriptive headings and write coherent prose beneath them.",
+      "Recommend A under the stated cost priority while preserving both prices and shared capacity.",
+      "Do not invent reliability findings or claim that the unknown reliability defeats the authorized cost-based recommendation."
+    ],
+    "rules": [
+      "R01",
+      "R03",
+      "R08",
+      "R13"
+    ]
+  },
+  {
+    "id": "authorized_research_mode",
+    "input": "Use $professor-humanizer. Research GitHub's current documented support for issue forms using official GitHub documentation, then write a short English paragraph explaining how a form collects a bug report. I explicitly authorize browsing for this task and have supplied no source text. Cite the documentation you actually consulted. If you cannot access research tools, explain that limitation and ask for the relevant source text.",
+    "expect": [
+      "Treat explicit authorization as permission to verify outside material for this non-course task.",
+      "Use actual official documentation and traceable citations if research tools are available; do not invent tool use, references, or a current feature claim.",
+      "If access is unavailable, state the concrete limitation and request source material without claiming research is categorically prohibited by the skill."
+    ],
+    "rules": [
+      "R01",
+      "R02",
+      "R15",
+      "R16"
+    ]
+  },
+  {
+    "id": "closed_course_sources",
+    "input": "Use $professor-humanizer with the original consciousness-course profile. Review my draft's source problem without rewriting it. The complete assigned excerpt reads: 'I recalled the wish after my hand moved' (8). My draft adds: A recent experiment proves that this remembered wish caused the movement. I have supplied no experiment or other evidence. The instructor has not approved outside material, and I want to follow that course restriction.",
+    "expect": [
+      "Identify the unsupported experimental claim and the difference between retrospective recollection and a causal demonstration.",
+      "Respect the course's closed source boundary; do not browse for a replacement experiment or invent a citation.",
+      "Explain what supplied or instructor-approved material would be needed before retaining the experimental claim; do not present a completed rewrite or silently change the author's causal position."
+    ],
+    "rules": [
+      "R02",
+      "R03",
+      "R16",
+      "C12"
+    ]
+  },
+  {
+    "id": "long_form_decision_memo",
+    "input": "Use $professor-humanizer. Revise the complete fictional decision memo below for the committee that manages the Alder Archive. Keep the three requested descriptive headings. Preserve my position, the strongest objection, the specified comparison, and every condition on the recommendation. Use only this draft. Do not supply implementation details that the draft leaves open.\n\n## What the desk log establishes\n\nI recommend a limited staffing trial at the request desk, subject to the recording and coverage conditions below. I consider a permanent transfer premature. The available log identifies a concentration of delayed requests, but it does not identify its cause. A trial could help the committee examine the proposed change without committing the archive to a schedule that the present evidence cannot justify. The distinction between authorizing a trial and approving a permanent arrangement controls the recommendation throughout this memo.\n\nDuring ten working days, the desk logged 80 requests received before noon and 40 received after noon. Of those groups, 52 morning requests and 8 afternoon requests remained unresolved one working day after receipt. These counts concern requests, not individual visitors. One visitor can submit several requests. The log therefore supports a comparison between the recorded request groups; it supplies no count of people affected and no basis for claiming that the morning service disappointed a particular proportion of visitors.\n\nThe groups also differ in the work they require. The morning group contains 32 complex requests, while the afternoon group contains 4. The desk classifies a request as complex when a reviewer must check a restriction before releasing the material. A standard request needs no restriction check, but still requires a complete form and a known document identifier. The supplied log does not divide the unresolved requests into these categories. We cannot attribute the entire difference in unresolved counts to the number of reviewers when the groups contain different proportions of complex work.\n\nThe desk currently assigns one reviewer before noon and two after noon. The proposed trial would move one afternoon reviewer into a second morning position. Paid reviewer hours would remain unchanged. That fact settles the proposed allocation of reviewer hours, although it does not establish that the trial would have no other cost. This memo supplies no estimate of training time, interruption costs, or implementation spending. The committee should assess the staffing proposal without treating unchanged paid hours as a completed account of every possible cost.\n\nThe desk manual instructs reviewers to complete a standard request received before noon by 4 p.m. that day, provided the requester has supplied the complete form and document identifier. The log records receipt time but does not record when those requirements became complete. It also records the eventual resolution time. A delay measured from receipt can therefore include time before a request qualifies for the manual's service commitment. I regard the unresolved counts as a reason to investigate the desk's work, while rejecting their use as a direct measure of compliance with that commitment.\n\n## The objection to moving a reviewer\n\nThe strongest objection concerns the afternoon work left behind. During the same ten days, the log records four urgent afternoon requests. Each required the archive's designated senior reviewer to authorize release, and each received that authorization on its day of receipt. The record does not say how much ordinary reviewer time supported those decisions. It also does not show whether one afternoon reviewer could have handled the ordinary queue alongside the urgent work. The successful handling of those four requests under the current schedule cannot establish that the proposed schedule would preserve that result.\n\nA second morning reviewer might reduce time spent waiting for an ordinary review. That reviewer cannot supply a restricted release authorization reserved for the senior reviewer. The distinction matters because a delay may continue after the desk has completed everything within its authority. I want the trial to record the time an ordinary review ends and the time a required authorization arrives. Those timestamps would locate a remaining delay more precisely; they would not, by themselves, explain why an authorizer took a particular length of time.\n\nThis objection deserves a practical condition on the trial. Before the transfer begins, the desk manager must arrange a named backup for urgent afternoon requests and confirm that the backup has the authority the relevant request requires. The draft proposal currently names no backup. I oppose beginning the transfer while that requirement remains unresolved. A general assurance that staff will cooperate would leave the operational question unanswered and would weaken the condition I am asking the committee to enforce.\n\n## Conditions for a limited trial\n\nI support a two-week trial only if the manager can maintain the current schedule while preparing the new recording fields and arranging that backup. Before the first trial day, the desk must record when a request becomes complete, when ordinary review finishes, when any required authorization arrives, and when the request closes. These fields correspond to different stages. Combining them into a single completion timestamp would prevent the committee from examining the distinction that motivates the trial.\n\nDuring the trial, the desk should retain the existing definition of a complex request. Changing that definition at the same time as the schedule would make the comparison harder to interpret. The committee should examine standard and complex requests separately, preserve the morning and afternoon distinction, and account for requests still open at the end of the observation period. A lower unresolved count in one group would need interpretation alongside the work assigned to that group. I do not propose a numerical threshold for permanent adoption because this draft supplies no agreed threshold.\n\nIf an urgent afternoon request lacks an available authorized backup, the manager should stop the trial and restore the current schedule. At the end of two weeks, the committee should review the recorded stages and any interruptions before deciding whether a further trial deserves approval. I am asking for conditional permission to test a schedule. My opposition to an immediate permanent transfer remains unchanged, and the present evidence leaves the effect of that transfer on afternoon service unresolved.",
+    "expect": [
+      "Retain the three requested descriptive headings and the author's conditional support for a two-week trial alongside opposition to immediate permanent transfer.",
+      "Preserve ten working days, the 80/40 receipt groups, the 52/8 unresolved counts, and the 32/4 complex-request counts; do not convert request counts into visitor counts.",
+      "Preserve the definitions of standard and complex requests and the distinction between receipt time and completion of the form and identifier requirements.",
+      "Keep the before-noon/4 p.m. service commitment conditional on complete requirements; do not treat the log as a direct compliance measure.",
+      "Preserve the one-morning/two-afternoon current staffing and the proposed transfer, while keeping unchanged paid reviewer hours distinct from total costs.",
+      "Retain the strongest objection: four urgent afternoon requests received same-day senior authorization under the current schedule, which does not establish performance under the proposal.",
+      "Keep ordinary review authority distinct from restricted release authorization and preserve all four requested recording stages.",
+      "Preserve the named authorized backup requirement, unchanged complex-request definition, open-request accounting, absence of an adoption threshold, stop-and-restore trigger, and review before any further trial.",
+      "Improve continuity without collapsing the objection or the conditions into a generic recommendation; do not invent results from the proposed trial."
+    ],
+    "rules": [
+      "R01",
+      "R02",
+      "R03",
+      "R05",
+      "R06",
+      "R07",
+      "R08",
+      "R12",
+      "R13",
+      "R15",
+      "P22"
+    ]
+  },
+  {
+    "id": "long_form_course_inquiry",
+    "input": "Use $professor-humanizer with the original consciousness-course profile. Revise this complete fictional course essay for a reader who already knows the assigned passage. The quotations and page numbers below constitute the complete source packet. Preserve the specific analytical opening question, the meaningful parallel comparison of the two records, the author's exploratory position, and an open-ended final question. Do not add headings, outside sources, or a solution to the problem of consciousness. All characters and materials here are fictional.\n\nHow could a remembered intention help explain a movement when the only report of that intention comes after the movement? This question guides my reading of Iven's passage about reaching for a closed notebook. I take the passage to examine the authority a speaker gives to remembered experience. I do not read it as a demonstration that consciousness initiates an independent chain of physical causes. Its difficulty emerges from the difference between having a reason one can describe and establishing how that reason contributed to a particular action.\n\nThe passage begins with a speaker looking at a notebook on a table. Iven writes, “I reached for the notebook before I could recall deciding to open it” (18). The sentence fixes the order of the reach and the later recollection. It does not establish that no decision preceded the reach. The speaker's inability to recall such a decision at that moment concerns access to the decision, while the stronger claim about its absence would concern whether it happened at all. Keeping that distinction allows the passage's uncertainty to remain active.\n\nThe next sentence adds a report of intention: “After my hand moved, I remembered wanting the name on the first page” (18). The reported wanting supplies an intelligible reason for opening the notebook. The passage gives no independently recorded account of when that wanting began. I consider the speaker's explanation plausible within the scene because the wanted name would give the notebook a purpose. Plausibility alone cannot establish whether the remembered wanting guided the movement, accompanied an earlier process, or entered the account only when the speaker tried to explain it.\n\nThe order of the sentences makes this difficulty visible. The first presents an action that outruns the speaker's available account. The second presents an account that could give the action a reason. Their sequence lets the reader experience a temporary explanatory gap before receiving the speaker's retrospective answer. That formal arrangement supports a claim about how the passage manages the reader's knowledge. It supplies no independent measurement of the events inside the speaker's nervous system and cannot settle their timing through narrative order alone.\n\nIven then introduces an observer's record: “The observer wrote down the reach; I supplied the remembered reason” (19). The observer records the movement; the speaker records the remembered intention. This comparison distinguishes the access each account offers. The observer's entry does not describe the speaker's experience, and the speaker's report does not add an independent observation of the movement's cause. Each record contributes something relevant to the scene. Neither record provides every premise needed to explain the relationship between experience and bodily motion.\n\nOne charitable interpretation gives the speaker's recollection an explanatory role without requiring it to settle the causal question. On this reading, the speaker identifies what made opening the notebook intelligible from within the experience. A reason can organize the speaker's description of the action even while the passage leaves its physical contribution unmeasured. I find this interpretation useful because it preserves the first-person account as part of the inquiry and specifies the work that account can perform on the supplied evidence.\n\nA stronger interpretation would treat the remembered reason as evidence that the experienced intention helped produce the reach. The passage allows that possibility: the speaker might have wanted the name before moving and recognized the wanting only afterward. Yet the supplied lines do not independently locate the intention before the movement. The stronger interpretation therefore needs a premise about the reliability and temporal reach of this recollection. Identifying that premise does not require dismissing the speaker as dishonest or unreliable. The passage offers no evidence for either accusation.\n\nAn alternative explanation would allow the report to arise as the speaker makes sense of an action already completed. Under that explanation, the reported wanting could organize a coherent account without initiating the movement it explains. I am not claiming that this happened in the scene. I introduce the alternative because the supplied sequence does not exclude it. The two explanations differ over what the remembered intention did, even though each can accommodate the speaker's report after the hand moved.\n\nThe passage itself keeps that distinction in view. Iven ends, “The account gave my movement a purpose; it left the beginning of the movement unlocated” (19). The reference to purpose returns the reader to the wanted name, while the final clause limits what the account has established about the movement's beginning. I read the sentence as a deliberate restriction on the explanation just offered. Turning it into a declaration that consciousness has no causal effect would go beyond its wording and would close the question the final clause preserves.\n\nThis restriction also changes the work expected of my interpretation. I can explain how the passage separates a narrated purpose from an established causal beginning. I cannot infer from that separation that purpose contributes nothing to physical action. The absence of a demonstrated contribution leaves its existence unsettled. Equally, the availability of a meaningful reason leaves open how, or whether, that reason participates in producing the reach. The argument needs both limits because either omission would make the supplied evidence answer more than it can.\n\nThe most demanding assumption belongs to the stronger interpretation: a later report of wanting would need to disclose an earlier experience with enough temporal reliability to support a claim about the reach. Even that support would leave a further question about the relation between the experience and the physical processes producing the movement. The passage provides no mechanism for distinguishing a new causal contribution from an account that follows those processes. What would establish whether the remembered intention began a new causal chain in the physical world, rather than giving the completed movement an intelligible purpose?",
+    "expect": [
+      "Preserve the specific opening inquiry, a meaningful parallel comparison of observer and speaker records, and an open-ended final question about a new physical causal chain.",
+      "Keep every used quotation exact with its supplied page number, and do not add outside theories, studies, source facts, or invented authorial context.",
+      "Preserve failure to recall a prior decision versus absence of a prior decision, and narrative order versus independently established physical timing.",
+      "Retain the author's plausible first-person explanation and the charitable stronger interpretation in which a prior intention may contribute causally.",
+      "Keep the alternative retrospective account explicitly hypothetical; do not assert dishonesty, unreliability, lack of consciousness, or absence of all causal contribution.",
+      "Preserve the missing premise about temporal reliability, the unprovided mechanism, and the distinction between an intelligible purpose and an established causal beginning.",
+      "Explain the syntax and sequence through their actual effect on the reader's knowledge, without reducing the argument to paraphrase or repeated statements that the problem remains complex.",
+      "Maintain continuous course essay paragraphs without headings, and preserve necessary reasoning even when stylistic repair requires local expansion."
+    ],
+    "rules": [
+      "R02",
+      "R03",
+      "R04",
+      "R05",
+      "R06",
+      "R07",
+      "R08",
+      "R09",
+      "R12",
+      "R13",
+      "R15",
+      "P03",
+      "P04",
+      "P22",
+      "C02",
+      "C04",
+      "C05",
+      "C06",
+      "C08",
+      "C09",
+      "C10",
+      "C11",
+      "C12",
+      "C14"
+    ]
+  },
+  {
+    "id": "participles_supported",
+    "input": "Use $professor-humanizer. Revise this complete supplied account without changing the actions, quantities or evidence sources: Comparing the morning and afternoon attendance sheets, Noor found three duplicate entries on the afternoon sheet. Working from the signed originals, she removed those three duplicate entries. Drawing on the corrected sheet, she prepared the attendance total. No total number has been supplied.",
+    "expect": [
+      "Preserve the comparison of morning and afternoon sheets, three duplicate entries on the afternoon sheet, the signed originals used for removal, and the corrected sheet used for the total.",
+      "Recast the repeated participial openings without dropping a stage or inventing an attendance total, extra attendees, or another evidence source."
+    ],
+    "rules": [
+      "P08",
+      "R02",
+      "R03",
+      "R07"
+    ]
+  },
+  {
+    "id": "concession_intended_judgments",
+    "input": "Use $professor-humanizer. Revise my reply using only the supplied material. The review takes two days, and we can start Wednesday to meet Friday's deadline. Draft: Your scheduling concern is valid. However, it overlooks the bigger picture. We can start the two-day review Wednesday to meet Friday's deadline. I intend both the acknowledgment that the concern is valid and the disagreement about what it overlooks. I have supplied no further detail. Preserve those judgments.",
+    "expect": [
+      "Preserve the two-day duration, Wednesday start and Friday deadline.",
+      "Do not silently remove either intended judgment or invent the unspecified broader consideration.",
+      "Ask what broader consideration the concern overlooks before presenting a complete revised reply."
+    ],
+    "rules": [
+      "P15",
+      "R02",
+      "R03"
+    ]
+  },
+  {
+    "id": "thematic_intended_judgment",
+    "input": "Use $professor-humanizer. Revise my narrative using only this draft: Owen closed the shop and placed the key in the drawer. This act captured the enduring importance of closure. I intend the final sentence as my interpretation; preserve its substance. I have supplied no further context.",
+    "expect": [
+      "Preserve the shop-closing and key-placement actions without inventing motives, finality or biographical context.",
+      "Treat enduring importance as an intended interpretation rather than a duplicate of physically closing the shop.",
+      "Request its meaning or support before removing, weakening, or claiming to complete the revision of that interpretation."
+    ],
+    "rules": [
+      "P18",
+      "R02",
+      "R03"
+    ]
+  },
+  {
+    "id": "quotation_intended_judgment",
+    "input": "Use $professor-humanizer. Revise this paragraph using only the supplied material. Draft: Neri writes, “The tally excludes refunds” (6). This quote demonstrates the importance of careful interpretation. I intend the final sentence as a substantive interpretive judgment, not an unwanted AI addition. Keep the quotation, page and judgment. I have supplied no wider context.",
+    "expect": [
+      "Keep the quoted wording, Neri attribution and page exact whenever reproducing the source sentence.",
+      "Preserve the intended interpretive judgment; do not delete it merely because its warrant is missing.",
+      "Explain the judgment through a warrant supported by the supplied quotation, or identify an essential support gap and request clarification; invent no wider source context or strengthened conclusion."
+    ],
+    "rules": [
+      "P17",
+      "R02",
+      "R03",
+      "R15",
+      "R04"
     ]
   }
 ]

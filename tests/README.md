@@ -20,9 +20,9 @@ The validator does not award a writing-quality score. Passing these tests does n
 
 ## Behavioral protocol
 
-The [36 cases](cases.json) contain realistic prompts and expected invariants. To run a case, use a fresh agent session with the installed skill and provide only its input. Keep expected invariants out of the model prompt.
+The [48 cases](cases.json) contain prompts and expected invariants. For an isolated evaluation, use a fresh agent session with the installed skill and provide only the input. Keep expected invariants out of the generation prompt. If cases share a session, report that grouping.
 
-Record the host, model identifier, skill version, date, full input and complete response. A reviewer then checks each expected invariant against the actual response and the supplied evidence. Mark pass, fail, or blocked and explain the reason with a rule ID. A clarification can pass a case that requires one.
+Record the host, available model identifier, skill version, date, full input and complete response. A reviewer then checks each expected invariant against the actual response and supplied evidence. Mark pass, fail, or blocked and explain the reason. A clarification can pass a case that requires one. Preserve failed responses and the original criteria when a development run leads to a correction.
 
 Review in this order:
 
@@ -35,6 +35,12 @@ A fluent response that changes meaning fails. A matched phrase alone cannot esta
 
 For comparative claims, preserve actual baseline and skill-enabled runs under comparable conditions. Report the sample, failures and limitations. Do not substitute a model's self-rating, word-count reduction or invented community feedback for this record.
 
-## Current status
+## Recorded runs
 
-The project has not completed the full 36-case behavioral evaluation. One [recorded long-form smoke check](runs/long-form-smoke.json), run with version 0.2.0 under the Better AI Writer name, includes an actual response from a fresh-context agent and the implementing assistant's review. Its unknown model identifier and lack of a baseline limit the conclusions. Authored examples establish intended behavior only. The [validation report](validation-report.md) describes the executed checks and remaining gaps.
+The [version 0.4.0 development evaluation](runs/v0.4.0-behavioral.json) contains 51 actual responses covering all 48 current inputs across three guidance checkpoints. Three long-form inputs exercise an academic argument, a decision memo, and the original course inquiry. Separate review agents compared the responses with their inputs and expected invariants.
+
+The initial 44-input run produced one residual long-form repetition and two failures against overly prescriptive test criteria. The project retained those responses and reviews, strengthened the paragraph-ending check, and revised the two criteria with recorded reasons. A focused follow-up covered those cases plus a supported participial revision. A subsequent example audit corrected three remaining demonstrations of judgment deletion and added three corresponding cases. One of those responses exposed another overly restrictive criterion: the supplied evidence allowed a faithful warrant, while the criterion demanded clarification. The record preserves that literal failure and the criterion correction.
+
+These runs used fresh-context Codex agents. Each long-form input had its own generation session; short inputs shared a session within their recorded batch. The final guidance received focused checks rather than a full rerun of every input. Reviewers were AI agents, and the host exposed no model identifiers or generation settings. There was no baseline, independent human evaluation, community study, or cross-host comparison. This record supports inspection of the observed responses; it supplies no comparative improvement estimate.
+
+The earlier [long-form smoke check](runs/long-form-smoke.json), run with version 0.2.0 under the Better AI Writer name, remains unchanged. The [validation report](validation-report.md) summarizes executed checks and remaining gaps.
