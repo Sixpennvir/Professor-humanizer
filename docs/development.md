@@ -35,7 +35,7 @@ The explicit runtime allowlist includes SKILL.md, LICENSE, UI metadata and requi
 
 ## Git workflow
 
-For the current private preview, review the diff and complete verification before updating the default branch directly. Do not create a pull request unless the owner requests one. Do not convert a private preview to a public repository or create a Release without the owner's instruction.
+Review the diff and complete verification before updating the default branch directly. Create a pull request only when the maintainer requests one. Publish each authorized release from its verified commit and attach the generated ZIP with its SHA-256 file.
 
 Do not claim a community survey, user test, model benchmark, or improvement percentage without a recorded study that actually took place. Authored examples demonstrate intended behavior. Executed tooling tests establish only their defined checks.
 

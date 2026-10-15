@@ -1,6 +1,6 @@
 # Validation report
 
-Date: 2026-10-14. Version: 0.2.0 private preview. Local tooling: Windows, Python 3.12.13.
+Date: 2026-10-14. Version: 0.2.0. Local tooling: Windows, Python 3.12.13.
 
 ## Executed tooling checks
 

@@ -8,11 +8,11 @@ The skill rejects deliberate errors or degraded prose as shortcuts to a human vo
 
 [Examples](references/examples.md) · [Install](docs/usage.md) · [Writing rules](references/rules.md) · [Pattern catalogue](references/patterns.md) · [Evaluation](tests/README.md)
 
-> **Private preview · 0.2.0** — Repository access currently requires permission. The project has no public release.
+[**Download v0.2.0**](https://github.com/Sixpennvir/better-ai-writer/releases/tag/v0.2.0) · [MIT license](LICENSE)
 
 ## See the revision
 
-The following teaching example uses a fictional passage. Everything needed for the revision appears in the draft. These authored examples illustrate the intended edits. Independent model evaluation remains pending.
+The following teaching example uses a fictional passage. Everything needed for the revision appears in the draft. These authored examples illustrate the intended edits. The [evaluation page](tests/README.md) distinguishes them from the recorded model smoke check.
 
 <!-- showcase:start -->
 **Before**
@@ -54,7 +54,7 @@ These restrictions express the project's chosen style. They apply across scenari
 
 ## Try it
 
-For a repository-scoped Codex setup, run this from the project where you want to use the skill. Git must already have access to this private repository.
+For a repository-scoped Codex setup, run this from the project where you want to use the skill:
 
 ```bash
 git clone https://github.com/Sixpennvir/better-ai-writer.git .agents/skills/better-ai-writer
@@ -96,6 +96,6 @@ The README example and detailed gallery come from the same data. Checks catch do
 
 ## Contribute
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for the example contract and review process. Maintainer commands and packaging details live in [development](docs/development.md). The current preview uses direct maintainer updates after review and verification.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the example contract and review process. Maintainer commands and packaging details live in [development](docs/development.md). The maintainer reviews and verifies changes before updating the repository.
 
 [MIT license](LICENSE). The instructional foundation comes from user-supplied course guidance. Better AI Writer contains independently authored instructions and examples and has no dependency on another writing skill.

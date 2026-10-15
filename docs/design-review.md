@@ -1,8 +1,8 @@
 # Design review: 2026-10-14
 
-## What failed in the first preview
+## Example design
 
-The homepage email compared a generic draft against a revision containing a recipient, deadline and purpose supplied in a separate note. That can illustrate drafting from notes, but it obscures a revision's information boundary. It also offered little evidence of paragraph-level editing. The project needed examples readers could audit directly.
+Each example displays the complete draft and its revision so readers can check the source of every factual claim. The homepage demonstrates paragraph-level editing through a close reading; the full-length example follows an argument through its objection and conditional conclusion.
 
 ## Independent decisions
 
@@ -22,7 +22,7 @@ The skill now distinguishes revision from drafting and diagnosis. It can preserv
 - Generated documentation cannot silently drift from its example data.
 - A change to a hard rule remains visible in traceability.
 - Checks report their actual scope; no fabricated model evaluation appears.
-- Keep the GitHub preview private. Creating a public Release requires the owner's instruction.
+- Release assets match the verified source commit and include the required runtime references.
 
 ## Remaining evidence gap
 

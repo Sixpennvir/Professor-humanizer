@@ -20,4 +20,4 @@ Preserve the course profile and strict English-writing scope. A proposed excepti
 
 Follow [development](docs/development.md) for local checks and packaging. Add a behavioral case for a changed decision boundary. Keep model outputs and authored examples separate. Record only checks that actually ran; do not invent community research, user feedback or performance figures.
 
-For the current private preview, the maintainer reviews and verifies changes before updating the default branch directly. Describe the concrete failure and resulting behavior with the actual verification and remaining limits. Create a pull request only when the owner requests one. Contributions follow the repository's MIT license.
+The maintainer reviews and verifies changes before updating the default branch directly. Describe the concrete failure and resulting behavior with the actual verification and remaining limits. Create a pull request only when the owner requests one. Contributions follow the repository's MIT license.

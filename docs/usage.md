@@ -8,17 +8,17 @@ From the project where the skill should apply:
 git clone https://github.com/Sixpennvir/better-ai-writer.git .agents/skills/better-ai-writer
 ```
 
-This preview requires access to the private repository. Authenticate Git with an account that has access first. Do not embed access tokens in a clone URL or paste them into a prompt. If the destination already exists, inspect it before installing another copy.
+Cloning the public repository requires no GitHub login. If the destination already exists, inspect it before installing another copy.
 
 Codex's [official local skills guide](https://learn.chatgpt.com/docs/build-skills) documents repository discovery under `.agents/skills/` and personal discovery under `~/.agents/skills/`. Install the repository root as the skill folder. Preserve its `references/` and `agents/` directories; copying only SKILL.md leaves required references missing.
 
 ## Manual ZIP installation
 
-Download the repository through GitHub's Code menu while signed in, or use a locally built skill ZIP. Extract the skill into `.agents/skills/better-ai-writer/` in your working project. Confirm that SKILL.md sits directly inside that directory.
+Download [better-ai-writer-v0.2.0.zip](https://github.com/Sixpennvir/better-ai-writer/releases/download/v0.2.0/better-ai-writer-v0.2.0.zip) from the [release page](https://github.com/Sixpennvir/better-ai-writer/releases/tag/v0.2.0). The accompanying `.sha256` file contains the archive's SHA-256 checksum. Extract the `better-ai-writer/` folder into `.agents/skills/` in your working project. Confirm that `.agents/skills/better-ai-writer/SKILL.md` exists directly at that path.
 
 For personal installation, place the same folder under your home directory's `.agents/skills/`. Do not install duplicate copies at several scopes unless you intend to manage them separately.
 
-Invoke `$better-ai-writer` in a Codex request. If discovery does not refresh, restart the host. Other Agent Skills hosts may use different installation paths; consult their documentation. This project has not run cross-host compatibility tests.
+Invoke `$better-ai-writer` in a Codex request. If discovery does not refresh, restart the host. Other Agent Skills hosts may use different installation paths; consult their documentation. The project has not completed cross-host compatibility testing.
 
 ## Update a clone
 
