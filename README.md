@@ -10,7 +10,7 @@ The skill rejects deliberate errors or degraded prose as shortcuts to a human vo
 
 [**Download v0.2.0**](https://github.com/Sixpennvir/better-ai-writer/releases/tag/v0.2.0) · [MIT license](LICENSE)
 
-## See the revision
+## Revision Examples
 
 The following teaching example uses a fictional passage. Everything needed for the revision appears in the draft. These authored examples illustrate the intended edits. The [evaluation page](tests/README.md) distinguishes them from the recorded model smoke check.
 
