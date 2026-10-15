@@ -2,9 +2,9 @@
 
 **Long-form English writing with the author's reasoning intact.**
 
-Better AI Writer focuses on long-form English writing. It guides drafting and revision at the level of the whole argument, tracking how each paragraph develops the author's reasoning and how later claims depend on earlier evidence. Its rules prioritize readability while preserving intellectual depth and the writer's own position.
+Better AI Writer supports long-form English writing with close attention to the author's argument. During drafting and revision, it checks each paragraph's contribution and follows the connections between claims and their supporting evidence. Edits should improve readability through precise expression while retaining the intellectual depth of the original.
 
-Natural expression should emerge from precise language and coherent development. The skill rejects deliberate mistakes and artificial simplification as ways to make AI output seem human. It requires revisions to preserve necessary complexity, including qualifications and distinctions that carry the argument.
+The skill rejects deliberate errors or degraded prose as shortcuts to a human voice. It preserves the distinctions and qualifications that give a complex argument its meaning, even when they require a longer explanation.
 
 [Examples](references/examples.md) · [Install](docs/usage.md) · [Writing rules](references/rules.md) · [Pattern catalogue](references/patterns.md) · [Evaluation](tests/README.md)
 
